@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "",
+  "report": {
+    "monthName": "أغسطس",
+    "year": "2026",
+    "totalWords": "ستة وثمانون ألفًا وخمسمائة وواحد وعشرون عُمانيًا",
+    "initiativesNote": "حملة نتكافل للتبرع بالدم ٢٣ | البرنامج التدريبي (سلم) | إعادة تدوير البلاستيك | أسطوانات أكسجين لمجمع صحار الصحي",
+    "lastUpdated": null
+  },
+  "highlight": {"id": null,"title":"","text":"","images":[]},
+  "categories": [
+    {"id":"c1","title":"كفالة الأيتام","amount":26360,"countText":"721 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":1},
+    {"id":"c2","title":"كفالة الأسر المعسرة","amount":7180,"countText":"215 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":2},
+    {"id":"c3","title":"كفالة طلاب جامعيين","amount":1755,"countText":"58 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":3},
+    {"id":"c4","title":"منزل يؤويهم","amount":2364,"countText":"2 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":4},
+    {"id":"c5","title":"الإلكترونيات","amount":5717,"countText":"44 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":5},
+    {"id":"c6","title":"فك كربة","amount":7610,"countText":"9 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":6},
+    {"id":"c7","title":"الصدقات العامة","amount":6842,"countText":"105 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":7},
+    {"id":"c8","title":"التعليم","amount":1100,"countText":"3 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":8},
+    {"id":"c9","title":"دعم الأسر","amount":15015,"countText":"3001 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":9},
+    {"id":"c10","title":"المواد الغذائية","amount":5380,"countText":"268 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":10},
+    {"id":"c11","title":"اللحوم","amount":1074,"countText":"110 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":11},
+    {"id":"c12","title":"الأثاث","amount":1650,"countText":"14 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":12},
+    {"id":"c13","title":"الصحة","amount":3109,"countText":"5 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":13},
+    {"id":"c14","title":"مبادرات مجتمعية","amount":1365,"countText":"4 مستفيد","detailText":"حملة نتكافل للتبرع بالدم ٢٣ + البرنامج التدريبي (سلم) + إعادة تدوير البلاستيك + أسطوانات أكسجين لمجمع صحار الصحي","detailImage":"","detailImagePath":"","sortOrder":14}
+  ],
+  "initiativeImages": [],
+  "partnerSections": []
+}
