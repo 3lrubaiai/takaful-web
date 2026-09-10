@@ -384,6 +384,73 @@ const REPORT_ID = "takaful-suhar-report";
 const STORAGE_BUCKET = "report-images";
 const LANG_KEY = "lang-pref";
 
+const MONTHS_EN = {
+  "يناير":"January","فبراير":"February","مارس":"March","أبريل":"April","إبريل":"April",
+  "مايو":"May","يونيو":"June","يوليو":"July","أغسطس":"August","سبتمبر":"September",
+  "أكتوبر":"October","نوفمبر":"November","ديسمبر":"December"
+};
+
+const T = {
+  ar:{
+    eyebrow:"تقرير شهري",
+    titleLine:(m,y)=>`التقرير المالي لشهر ${m} ${y}`,
+    totalLabel:"إجمالي المصروفات",
+    currency:"ر.ع",
+    initiativesTitle:"مبادرات مجتمعية",
+    photosCount:n=>`${n} صورة`,
+    highlightTitle:"أبرز أخبار هذا الشهر",
+    partnersSectionTitle:"شركاء العطاء",
+    updatedLabel:"آخر تحديث:",
+    close:"إغلاق",
+    noDetail:"لا تتوفر تفاصيل إضافية حاليًا لهذا البند.",
+    langBtn:"English",
+    translating:"جارِ الترجمة…"
+  },
+  en:{
+    eyebrow:"Monthly Report",
+    titleLine:(m,y)=>`Financial Report — ${MONTHS_EN[m]||m} ${y}`,
+    totalLabel:"Total Expenses",
+    currency:"OMR",
+    initiativesTitle:"Community Initiatives",
+    photosCount:n=>`${n} photo${n===1?'':'s'}`,
+    highlightTitle:"This Month's Top Stories",
+    partnersSectionTitle:"Ataa Partners",
+    updatedLabel:"Last updated:",
+    close:"Close",
+    noDetail:"No additional details have been added for this item yet.",
+    langBtn:"العربية",
+    translating:"Translating…"
+  }
+};
+
+function defaultState(){
+  return {
+    monthName:"أغسطس",
+    year:"2026",
+    totalWords:"",
+    initiativesNote:"",
+    lastUpdated:null,
+    highlight:{id:null,title:"",text:"",images:[]},
+    categories:[],
+    initiativeImages:[],
+    partnerSections:[]
+  };
+}
+
+let state = null;
+let isAdmin = false;
+let lang = "ar";
+let highlightIdx = 0;
+const translationCache = {};
+
+function uid(){ return 'c' + Math.random().toString(36).slice(2,9); }
+
+function showHostBanner(){
+  const b=document.getElementById('host-banner');
+  if(!b) return;
+  b.classList.remove('show');
+  b.textContent='';
+}
 
 const ENABLE_SUPABASE_IMAGE_TRANSFORMS = false;
 
