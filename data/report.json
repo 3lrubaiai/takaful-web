@@ -1,30 +1,262 @@
 {
   "version": 1,
-  "generatedAt": "",
+  "generatedAt": "2026-09-10T05:07:24.207Z",
   "report": {
     "monthName": "أغسطس",
     "year": "2026",
     "totalWords": "ستة وثمانون ألفًا وخمسمائة وواحد وعشرون عُمانيًا",
     "initiativesNote": "حملة نتكافل للتبرع بالدم ٢٣ | البرنامج التدريبي (سلم) | إعادة تدوير البلاستيك | أسطوانات أكسجين لمجمع صحار الصحي",
-    "lastUpdated": null
+    "lastUpdated": "2026-09-07T08:38:50.811+00:00"
   },
-  "highlight": {"id": null,"title":"","text":"","images":[]},
+  "highlight": {
+    "id": "fc5cadba-2e9f-45bc-acc3-458b435ad09d",
+    "title": "اكثر من ٥٠٠ متبرع ",
+    "text": "هذا مجرد اختبار تلتنتا تزوز تلنتلن نان",
+    "images": [
+      {
+        "id": "9921a290-f6d3-4e18-8b04-150313c43b8a",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/01.jpg",
+        "path": "takaful-suhar-report/highlight/01.jpg"
+      },
+      {
+        "id": "b282e59c-b79e-4c5c-903c-66111b8435b5",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/02.jpg",
+        "path": "takaful-suhar-report/highlight/02.jpg"
+      },
+      {
+        "id": "79fa88c7-e65d-4132-a410-ef5241c597cc",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/03.jpg",
+        "path": "takaful-suhar-report/highlight/03.jpg"
+      },
+      {
+        "id": "5870e32a-93d1-4ea7-8573-046264d383bb",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/04.jpg",
+        "path": "takaful-suhar-report/highlight/04.jpg"
+      },
+      {
+        "id": "b7ceb042-3feb-4eb0-bc92-ab301941064e",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/05.jpg",
+        "path": "takaful-suhar-report/highlight/05.jpg"
+      },
+      {
+        "id": "ff1096b1-370d-4fd7-bbb3-58d026574bd5",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/06.jpg",
+        "path": "takaful-suhar-report/highlight/06.jpg"
+      }
+    ]
+  },
   "categories": [
-    {"id":"c1","title":"كفالة الأيتام","amount":26360,"countText":"721 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":1},
-    {"id":"c2","title":"كفالة الأسر المعسرة","amount":7180,"countText":"215 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":2},
-    {"id":"c3","title":"كفالة طلاب جامعيين","amount":1755,"countText":"58 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":3},
-    {"id":"c4","title":"منزل يؤويهم","amount":2364,"countText":"2 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":4},
-    {"id":"c5","title":"الإلكترونيات","amount":5717,"countText":"44 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":5},
-    {"id":"c6","title":"فك كربة","amount":7610,"countText":"9 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":6},
-    {"id":"c7","title":"الصدقات العامة","amount":6842,"countText":"105 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":7},
-    {"id":"c8","title":"التعليم","amount":1100,"countText":"3 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":8},
-    {"id":"c9","title":"دعم الأسر","amount":15015,"countText":"3001 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":9},
-    {"id":"c10","title":"المواد الغذائية","amount":5380,"countText":"268 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":10},
-    {"id":"c11","title":"اللحوم","amount":1074,"countText":"110 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":11},
-    {"id":"c12","title":"الأثاث","amount":1650,"countText":"14 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":12},
-    {"id":"c13","title":"الصحة","amount":3109,"countText":"5 مستفيد","detailText":"","detailImage":"","detailImagePath":"","sortOrder":13},
-    {"id":"c14","title":"مبادرات مجتمعية","amount":1365,"countText":"4 مستفيد","detailText":"حملة نتكافل للتبرع بالدم ٢٣ + البرنامج التدريبي (سلم) + إعادة تدوير البلاستيك + أسطوانات أكسجين لمجمع صحار الصحي","detailImage":"","detailImagePath":"","sortOrder":14}
+    {
+      "id": "c1",
+      "title": "كفالة الأيتام",
+      "amount": 26360,
+      "countText": "721 مستفيد",
+      "detailText": "اختبار الدقكبدن دمقبتدزقبدبق قد",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/c1.jpg",
+      "detailImagePath": "takaful-suhar-report/categories/c1.jpg",
+      "sortOrder": 0
+    },
+    {
+      "id": "c2",
+      "title": "كفالة الأسر المعسرة",
+      "amount": 7180,
+      "countText": "215 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c3",
+      "title": "كفالة طلاب جامعيين",
+      "amount": 1755,
+      "countText": "58 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c4",
+      "title": "منزل يؤويهم",
+      "amount": 2364,
+      "countText": "2 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c5",
+      "title": "الإلكترونيات",
+      "amount": 5717,
+      "countText": "44 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c6",
+      "title": "فك كربة",
+      "amount": 7610,
+      "countText": "9 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c7",
+      "title": "الصدقات العامة",
+      "amount": 6842,
+      "countText": "105 مستفيد",
+      "detailText": "تجرببببببببه",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/c7.jpg",
+      "detailImagePath": "takaful-suhar-report/categories/c7.jpg",
+      "sortOrder": 0
+    },
+    {
+      "id": "c8",
+      "title": "التعليم",
+      "amount": 1100,
+      "countText": "3 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c9",
+      "title": "دعم الأسر",
+      "amount": 15015,
+      "countText": "3001 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c10",
+      "title": "المواد الغذائية",
+      "amount": 5380,
+      "countText": "268 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c11",
+      "title": "اللحوم",
+      "amount": 1074,
+      "countText": "110 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c12",
+      "title": "الأثاث",
+      "amount": 1650,
+      "countText": "14 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c13",
+      "title": "الصحة",
+      "amount": 3109,
+      "countText": "5 مستفيد",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    },
+    {
+      "id": "c14",
+      "title": "مبادرات مجتمعية",
+      "amount": 1365,
+      "countText": "4 مستفيد",
+      "detailText": "حملة نتكافل للتبرع بالدم ٢٣ + البرنامج التدريبي (سلم) + إعادة تدوير البلاستيك + أسطوانات أكسجين لمجمع صحار الصحي",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 0
+    }
   ],
-  "initiativeImages": [],
-  "partnerSections": []
+  "initiativeImages": [
+    {
+      "id": "3c06d58b-d2e2-4b5c-ae4c-87165738fc57",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/01.jpg",
+      "path": "takaful-suhar-report/initiatives/01.jpg"
+    },
+    {
+      "id": "2232a1b9-9f44-48f1-855a-e9697b434c78",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/02.jpg",
+      "path": "takaful-suhar-report/initiatives/02.jpg"
+    },
+    {
+      "id": "200e3e7e-7c6f-4b22-80d1-5277221e1a18",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/03.jpg",
+      "path": "takaful-suhar-report/initiatives/03.jpg"
+    },
+    {
+      "id": "dc12a6e1-90a8-4c4d-9a8e-ed012c95c577",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/04.jpg",
+      "path": "takaful-suhar-report/initiatives/04.jpg"
+    },
+    {
+      "id": "d3fa8011-02ca-4024-b344-c35ce4036065",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/05.jpg",
+      "path": "takaful-suhar-report/initiatives/05.jpg"
+    }
+  ],
+  "partnerSections": [
+    {
+      "id": "cfi226i6",
+      "subtitle": "شكرا لشركائنا في حملة نتكافل للتبرع بالدم",
+      "logos": [
+        {
+          "id": "fe89b662-2a17-4050-9787-42fc30675ce7",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/cfi226i6/01.jpg",
+          "path": "takaful-suhar-report/partners/cfi226i6/01.jpg"
+        },
+        {
+          "id": "adedac8c-50b5-46a1-bb98-79c23b548058",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/cfi226i6/02.jpg",
+          "path": "takaful-suhar-report/partners/cfi226i6/02.jpg"
+        }
+      ]
+    },
+    {
+      "id": "c4u3euiv",
+      "subtitle": "شكرا لشركائنا في مبادرة اعادة التدوير",
+      "logos": [
+        {
+          "id": "c95fc87d-bce2-4ba4-85d9-03bd489381d1",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/c4u3euiv/01.jpg",
+          "path": "takaful-suhar-report/partners/c4u3euiv/01.jpg"
+        },
+        {
+          "id": "75a1ccf2-7edf-495c-b650-81f113b675c2",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/c4u3euiv/02.jpg",
+          "path": "takaful-suhar-report/partners/c4u3euiv/02.jpg"
+        }
+      ]
+    },
+    {
+      "id": "chf6fgnm",
+      "subtitle": "مشروع ث",
+      "logos": [
+        {
+          "id": "40f72c63-1bde-40a9-817e-5f4fd71fb53b",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/chf6fgnm/01.jpg",
+          "path": "takaful-suhar-report/partners/chf6fgnm/01.jpg"
+        }
+      ]
+    }
+  ]
 }
