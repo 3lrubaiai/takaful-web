@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T05:07:24.207Z",
+  "generatedAt": "2026-09-11T07:17:01.497Z",
   "report": {
     "monthName": "أغسطس",
     "year": "2026",
     "totalWords": "ستة وثمانون ألفًا وخمسمائة وواحد وعشرون عُمانيًا",
     "initiativesNote": "حملة نتكافل للتبرع بالدم ٢٣ | البرنامج التدريبي (سلم) | إعادة تدوير البلاستيك | أسطوانات أكسجين لمجمع صحار الصحي",
-    "lastUpdated": "2026-09-07T08:38:50.811+00:00"
+    "lastUpdated": "2026-09-10T05:37:16.71+00:00"
   },
   "highlight": {
     "id": "fc5cadba-2e9f-45bc-acc3-458b435ad09d",
@@ -17,11 +17,6 @@
         "id": "9921a290-f6d3-4e18-8b04-150313c43b8a",
         "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/01.jpg",
         "path": "takaful-suhar-report/highlight/01.jpg"
-      },
-      {
-        "id": "b282e59c-b79e-4c5c-903c-66111b8435b5",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/02.jpg",
-        "path": "takaful-suhar-report/highlight/02.jpg"
       },
       {
         "id": "79fa88c7-e65d-4132-a410-ef5241c597cc",
@@ -60,11 +55,11 @@
       "id": "c2",
       "title": "كفالة الأسر المعسرة",
       "amount": 7180,
-      "countText": "215 مستفيد",
-      "detailText": "",
-      "detailImage": "",
-      "detailImagePath": "",
-      "sortOrder": 0
+      "countText": "215 فرد",
+      "detailText": "تجربه ٢٢٢",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/1789018012868-rmi2pi1.jpg",
+      "detailImagePath": "takaful-suhar-report/categories/1789018012868-rmi2pi1.jpg",
+      "sortOrder": 1
     },
     {
       "id": "c3",
@@ -74,7 +69,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 2
     },
     {
       "id": "c4",
@@ -84,7 +79,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 3
     },
     {
       "id": "c5",
@@ -94,7 +89,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 4
     },
     {
       "id": "c6",
@@ -104,7 +99,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 5
     },
     {
       "id": "c7",
@@ -114,7 +109,7 @@
       "detailText": "تجرببببببببه",
       "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/c7.jpg",
       "detailImagePath": "takaful-suhar-report/categories/c7.jpg",
-      "sortOrder": 0
+      "sortOrder": 6
     },
     {
       "id": "c8",
@@ -124,7 +119,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 7
     },
     {
       "id": "c9",
@@ -134,7 +129,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 8
     },
     {
       "id": "c10",
@@ -144,7 +139,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 9
     },
     {
       "id": "c11",
@@ -154,7 +149,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 10
     },
     {
       "id": "c12",
@@ -164,7 +159,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 11
     },
     {
       "id": "c13",
@@ -174,7 +169,7 @@
       "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 12
     },
     {
       "id": "c14",
@@ -184,7 +179,7 @@
       "detailText": "حملة نتكافل للتبرع بالدم ٢٣ + البرنامج التدريبي (سلم) + إعادة تدوير البلاستيك + أسطوانات أكسجين لمجمع صحار الصحي",
       "detailImage": "",
       "detailImagePath": "",
-      "sortOrder": 0
+      "sortOrder": 13
     }
   ],
   "initiativeImages": [
