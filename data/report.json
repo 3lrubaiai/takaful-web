@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T07:20:09.487Z",
+  "generatedAt": "2026-09-20T07:44:19.877Z",
   "report": {
     "monthName": "أغسطس",
     "year": "2026",
-    "totalWords": "ستة وثمانون ألفًا وخمسمائة وواحد وعشرون عُمانيًا",
-    "initiativesNote": "حملة نتكافل للتبرع بالدم ٢٣ | البرنامج التدريبي (سلم) | إعادة تدوير البلاستيك | أسطوانات أكسجين لمجمع صحار الصحي",
-    "lastUpdated": "2026-09-15T06:59:14.843+00:00"
+    "totalWords": "مئة وثلاثة آلاف وستمئة وثلاثة وعشرون ريالاً عُمانياً",
+    "initiativesNote": "- سُلّم: برنامج تعليمي. - \n\n حملة التبرع بالدم (23) : \"آن الأوان\" - \n\n توفير أسطوانات ومنظمات الأكسجين لمجمع صحار الصحي - \n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
+    "lastUpdated": "2026-09-20T07:41:37.742+00:00"
   },
   "highlight": {
     "id": "fc5cadba-2e9f-45bc-acc3-458b435ad09d",
@@ -45,7 +45,7 @@
       "id": "c1",
       "title": "كفالة الأيتام",
       "amount": 26360,
-      "countText": "721 مستفيد",
+      "countText": "721 يتيم",
       "detailText": "- كفالة الأيتام\nيهدف برنامج كفالة الأيتام إلى توفير دعم شهري مستمر للأيتام، بما يسهم في تلبية احتياجاتهم الأساسية ومساندتهم في مراحل حياتهم المختلفة.",
       "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/c1.jpg",
       "detailImagePath": "takaful-suhar-report/categories/c1.jpg",
@@ -55,7 +55,7 @@
       "id": "c2",
       "title": "كفالة الأسر المعسرة",
       "amount": 7180,
-      "countText": "215 فرد",
+      "countText": "215 أسرة",
       "detailText": "- كفالة أسرة معسرة\nيهدف البرنامج إلى تقديم دعم مالي دوري للأسر المستحقة، بما يساعدها على مواجهة احتياجاتها المعيشية الأساسية وتحسين استقرارها المادي.",
       "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/1789018012868-rmi2pi1.jpg",
       "detailImagePath": "takaful-suhar-report/categories/1789018012868-rmi2pi1.jpg",
@@ -63,19 +63,19 @@
     },
     {
       "id": "c3",
-      "title": "كفالة طلاب جامعيين",
+      "title": "كفالة طالب جامعي",
       "amount": 1755,
-      "countText": "58 مستفيد",
-      "detailText": "- كفالة الأيتام\nيهدف برنامج كفالة الأيتام إلى توفير دعم شهري مستمر للأيتام، بما يسهم في تلبية احتياجاتهم الأساسية ومساندتهم في مراحل حياتهم المختلفة.\n\n- المشاريع الإسكانية\nيُعنى البرنامج بتوفير الدعم السكني للأسر المستحقة، من خلال المساهمة في بناء وصيانة وتأهيل المساكن، بما يوفر لهم بيئة سكنية آمنة ومستقرة. ويعمل الفريق حاليًا على تنفيذ منزلين سكنيين؛ هما المنزل رقم (107) في الخويرية والمنزل رقم (108) في مجيس.\n\n- كفالة أسرة معسرة\nيهدف البرنامج إلى تقديم دعم مالي دوري للأسر المستحقة، بما يساعدها على مواجهة احتياجاتها المعيشية الأساسية وتحسين استقرارها المادي.\n\n- الالكترونيات\nيهدف مشروع الإلكترونيات إلى توفير الأجهزة الكهربائية والإلكترونية الأساسية للأسر المستحقة، بما يسهم في تلبية احتياجاتهم المنزلية الضرورية وتحسين ظروفهم المعيشية، والتخفيف من الأعباء المالية عنهم.\n\n* 24 مكيفًا بقيمة 3,739 ريالًا عُمانيًا.\n* 11 ثلاجة بقيمة 1,459 ريالًا عُمانيًا.\n* 6 غسالات بقيمة 416 ريالًا عُمانيًا.\n* طباخة واحدة بقيمة 13 ريالًا عُمانيًا\n\n\n- الصدقات العامة\nتُوجّه الصدقات العامة إلى تلبية الاحتياجات العاجلة والمتنوعة للأسر والأفراد المستحقين، وفقًا للحالات التي يتم رصدها ودراستها من قبل الفريق.\n\n- التعليم\nيهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.\n\n- اللحوم\nيسعى المشروع إلى توفير اللحوم للأسر المستحقة، بما يعزز الأمن الغذائي ويدعم الأسر في تلبية احتياجاتها الغذائية.\n\n- المبادرات المجتمعية\nيتضمن هذا البند عددًا من المبادرات والبرامج المجتمعية التي ينفذها الفريق بهدف خدمة المجتمع وتعزيز المشاركة والتكافل بين أفراده، وشهد شهر أغسطس 2026 تنفيذ 4 مبادرات مجتمعية، وهي:\n\n* سُلّم: برنامج تعليمي امتد مدى شهر كامل واستهدف أبناء الأسر المعسرة والأيتام من طلبة الصفين ١١ و١٢ بهدف تنمية مهاراتهم في اللغة الانجليزية\n* ⁠* حملة التبرع بالدم (23): حملة إنسانية تهدف إلى دعم مخزون بنك الدم ونشر ثقافة التبرع بالدم، وتعزيز المسؤولية المجتمعية.\n* توفير أسطوانات ومنظمات الأكسجين لمجمع صحار الصحي: دعم القطاع الصحي من خلال توفير احتياجات تسهم في خدمة المرضى وتحسين جاهزية المرفق الصحي.\n* إعادة تدوير البلاستيك: مبادرة بيئية تهدف إلى جمع العبوات البلاستيكية وإعادة تدويرها، ونشر الوعي بأهمية المحافظة على البيئة وتعزيز ممارسات الاستدامة.\n\n\n- فك كربة\nيهدف مشروع فك كربة إلى مساعدة الحالات المستحقة التي تواجه مطالبات مالية أو أحكامًا تنفيذية، بما يسهم في إنهاء الكربة المالية وبدء حياة أكثر استقرارًا.\n\n- الأثاث\nيعمل المشروع على توفير الأثاث الأساسي للأسر المستحقة التي تحتاج إلى تجهيز أو استكمال احتياجات منازلها، بما يوفر لهم متطلبات الحياة اليومية بصورة أفضل.\n\n- المواد الغذائية\nيهدف المشروع إلى دعم الأمن الغذائي للأسر المستحقة من خلال توفير المواد الغذائية الأساسية التي تساعدها على تلبية احتياجاتها المعيشية.\n\n- الصحة\nيقدم المشروع الدعم للحالات الصحية المستحقة، من خلال المساهمة في توفير الاحتياجات الطبية والعلاجية التي تتطلبها الحالات وفقًا لظروفها.\nرسوم حالات ولادة للوافدات: 385 ريال\nجهاز شفط بلغم : 60 ريال\nسماعة اذن : 1- 2610 ريال \nاصلاح جهاز كرسي متحرك: 54 ريال\n\n- الملابس المدرسية\nيهدف المشروع إلى توفير الملابس المدرسية للطلبة من الأسر المستحقة، بما يضمن استعدادهم للعام الدراسي وتخفيف الأعباء المالية عن أسرهم.\nتم توزيع : \n832 زي مدرسي للطلاب \n586 زي مدرسي للطالبات\n\n- الحقائب المدرسية\nيوفر المشروع الحقائب والمستلزمات المدرسية للطلبة من الأسر المستحقة، دعمًا لهم مع بداية العام الدراسي وتعزيزًا لفرصهم في بدء عامهم الدراسي باحتياجات أساسية مكتملة.\n\n- الأوقاف والاستثمار\nيُعنى هذا المسار بتنمية واستدامة الموارد المالية للفريق من خلال المشاريع الوقفية والاستثمارية، بما يساهم في إيجاد مصادر دخل مستدامة تدعم البرامج والمشاريع الخيرية مستقبلًا.",
+      "countText": "58 طالباً",
+      "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 2
     },
     {
       "id": "c4",
-      "title": "منزل يؤويهم",
+      "title": "المشاريع الإسكانية",
       "amount": 2364,
-      "countText": "2 مستفيد",
+      "countText": "أسرتين",
       "detailText": "- المشاريع الإسكانية\nيُعنى البرنامج بتوفير الدعم السكني للأسر المستحقة، من خلال المساهمة في بناء وصيانة وتأهيل المساكن، بما يوفر لهم بيئة سكنية آمنة ومستقرة. ويعمل الفريق حاليًا على تنفيذ منزلين سكنيين؛ هما المنزل رقم (107) في الخويرية والمنزل رقم (108) في مجيس.",
       "detailImage": "",
       "detailImagePath": "",
@@ -85,7 +85,7 @@
       "id": "c5",
       "title": "الإلكترونيات",
       "amount": 5717,
-      "countText": "44 مستفيد",
+      "countText": "44 أسرة",
       "detailText": " - الالكترونيات\nيهدف مشروع الإلكترونيات إلى توفير الأجهزة الكهربائية والإلكترونية الأساسية للأسر المستحقة، بما يسهم في تلبية احتياجاتهم المنزلية الضرورية وتحسين ظروفهم المعيشية، والتخفيف من الأعباء المالية عنهم.\n\n* 24 مكيفًا بقيمة 3,739 ريالًا عُمانيًا.\n* 11 ثلاجة بقيمة 1,459 ريالًا عُمانيًا.\n* 6 غسالات بقيمة 416 ريالًا عُمانيًا.\n* طباخة واحدة بقيمة 13 ريالًا عُمانيًا",
       "detailImage": "",
       "detailImagePath": "",
@@ -95,7 +95,7 @@
       "id": "c6",
       "title": "فك كربة",
       "amount": 7610,
-      "countText": "9 مستفيد",
+      "countText": "9 حالات",
       "detailText": "- فك كربة\nيهدف مشروع فك كربة إلى مساعدة الحالات المستحقة التي تواجه مطالبات مالية أو أحكامًا تنفيذية، بما يسهم في إنهاء الكربة المالية وبدء حياة أكثر استقرارًا.",
       "detailImage": "",
       "detailImagePath": "",
@@ -105,8 +105,8 @@
       "id": "c7",
       "title": "الصدقات العامة",
       "amount": 6842,
-      "countText": "105 مستفيد",
-      "detailText": "تجرببببببببه",
+      "countText": "105 أسرة",
+      "detailText": "تُوجّه الصدقات العامة إلى تلبية الاحتياجات العاجلة والمتنوعة للأسر والأفراد المستحقين، وفقًا للحالات التي يتم رصدها ودراستها من قبل الفريق.\n",
       "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/c7.jpg",
       "detailImagePath": "takaful-suhar-report/categories/c7.jpg",
       "sortOrder": 6
@@ -115,141 +115,282 @@
       "id": "c8",
       "title": "التعليم",
       "amount": 1100,
-      "countText": "3 مستفيد",
+      "countText": "3 طلاب",
       "detailText": "- التعليم\nيهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 7
     },
     {
-      "id": "c9",
-      "title": "دعم الأسر",
-      "amount": 15015,
-      "countText": "3001 مستفيد",
-      "detailText": "",
+      "id": "c10",
+      "title": "المواد الغذائية",
+      "amount": 5380,
+      "countText": "268 أسرة",
+      "detailText": "- المواد الغذائية\nيهدف المشروع إلى دعم الأمن الغذائي للأسر المستحقة من خلال توفير المواد الغذائية الأساسية التي تساعدها على تلبية احتياجاتها المعيشية.",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 8
     },
     {
-      "id": "c10",
-      "title": "المواد الغذائية",
-      "amount": 5380,
-      "countText": "268 مستفيد",
-      "detailText": "",
+      "id": "c11",
+      "title": "اللحوم",
+      "amount": 1074,
+      "countText": "110 أسرة",
+      "detailText": "- اللحوم\nيسعى المشروع إلى توفير اللحوم للأسر المستحقة، بما يعزز الأمن الغذائي ويدعم الأسر في تلبية احتياجاتها الغذائية.",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 9
     },
     {
-      "id": "c11",
-      "title": "اللحوم",
-      "amount": 1074,
-      "countText": "110 مستفيد",
-      "detailText": "- اللحوم\nيسعى المشروع إلى توفير اللحوم للأسر المستحقة، بما يعزز الأمن الغذائي ويدعم الأسر في تلبية احتياجاتها الغذائية.",
+      "id": "c12",
+      "title": "الأثاث",
+      "amount": 1650,
+      "countText": "14 أسرة",
+      "detailText": "- الأثاث\nيعمل المشروع على توفير الأثاث الأساسي للأسر المستحقة التي تحتاج إلى تجهيز أو استكمال احتياجات منازلها، بما يوفر لهم متطلبات الحياة اليومية بصورة أفضل.\n",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 10
     },
     {
-      "id": "c12",
-      "title": "الأثاث",
-      "amount": 1650,
-      "countText": "14 مستفيد",
-      "detailText": "",
+      "id": "c13",
+      "title": "الصحة",
+      "amount": 3109,
+      "countText": "5 مستفيدين",
+      "detailText": "- الصحة\nيقدم المشروع الدعم للحالات الصحية المستحقة، من خلال المساهمة في توفير الاحتياجات الطبية والعلاجية التي تتطلبها الحالات وفقًا لظروفها.\nرسوم حالات ولادة للوافدات: 385 ريال\nجهاز شفط بلغم : 60 ريال\nسماعة اذن : 1- 2610 ريال \nاصلاح جهاز كرسي متحرك: 54 ريال",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 11
     },
     {
-      "id": "c13",
-      "title": "الصحة",
-      "amount": 3109,
-      "countText": "5 مستفيد",
-      "detailText": "- الصحة\nيقدم المشروع الدعم للحالات الصحية المستحقة، من خلال المساهمة في توفير الاحتياجات الطبية والعلاجية التي تتطلبها الحالات وفقًا لظروفها.\nرسوم حالات ولادة للوافدات: 385 ريال\nجهاز شفط بلغم : 60 ريال\nسماعة اذن : 1- 2610 ريال \nاصلاح جهاز كرسي متحرك: 54 ريال",
+      "id": "c14",
+      "title": "مبادرات مجتمعية",
+      "amount": 1365,
+      "countText": "4 مبادرات",
+      "detailText": "- المبادرات المجتمعية\nيتضمن هذا البند عددًا من المبادرات والبرامج المجتمعية التي ينفذها الفريق بهدف خدمة المجتمع وتعزيز المشاركة والتكافل بين أفراده، وشهد شهر أغسطس 2026 تنفيذ 4 مبادرات مجتمعية، وهي:\n\n* سُلّم: برنامج تعليمي امتد مدى شهر كامل واستهدف أبناء الأسر المعسرة والأيتام من طلبة الصفين ١١ و١٢ بهدف تنمية مهاراتهم في اللغة الانجليزية\n* حملة التبرع بالدم (23): حملة إنسانية تهدف إلى دعم مخزون بنك الدم ونشر ثقافة التبرع بالدم، وتعزيز المسؤولية المجتمعية.\n* توفير أسطوانات ومنظمات الأكسجين لمجمع صحار الصحي: دعم القطاع الصحي من خلال توفير احتياجات تسهم في خدمة المرضى وتحسين جاهزية المرفق الصحي.\n* إعادة تدوير البلاستيك: مبادرة بيئية تهدف إلى جمع العبوات البلاستيكية وإعادة تدويرها، ونشر الوعي بأهمية المحافظة على البيئة وتعزيز ممارسات الاستدامة.\n\n",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 12
     },
     {
-      "id": "c14",
-      "title": "مبادرات مجتمعية",
-      "amount": 1365,
-      "countText": "4 مستفيد",
-      "detailText": "حملة نتكافل للتبرع بالدم ٢٣ + البرنامج التدريبي (سلم) + إعادة تدوير البلاستيك + أسطوانات أكسجين لمجمع صحار الصحي",
+      "id": "c4f6x4fa",
+      "title": "الحقيبة المدرسية ",
+      "amount": 15315,
+      "countText": "3013 طالب/ ـة",
+      "detailText": "",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 13
+    },
+    {
+      "id": "ciy2ppiu",
+      "title": "الأوقاف و الاستثمار",
+      "amount": 7951,
+      "countText": "مشروعين",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 14
+    },
+    {
+      "id": "c9890bdz",
+      "title": "الملابس المدرسية ",
+      "amount": 8851,
+      "countText": "709 ",
+      "detailText": "",
+      "detailImage": "",
+      "detailImagePath": "",
+      "sortOrder": 15
     }
   ],
   "initiativeImages": [
     {
-      "id": "3c06d58b-d2e2-4b5c-ae4c-87165738fc57",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/01.jpg",
-      "path": "takaful-suhar-report/initiatives/01.jpg"
+      "id": "8b841bf0-25ae-418a-a97d-320870cf9717",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789882634253-jp8lojm.jpg",
+      "path": "takaful-suhar-report/initiatives/1789882634253-jp8lojm.jpg"
     },
     {
-      "id": "2232a1b9-9f44-48f1-855a-e9697b434c78",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/02.jpg",
-      "path": "takaful-suhar-report/initiatives/02.jpg"
+      "id": "fb46eada-eb9c-4d35-bd2b-fcd3eb24331a",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789882872581-gjld2zj.jpg",
+      "path": "takaful-suhar-report/initiatives/1789882872581-gjld2zj.jpg"
     },
     {
-      "id": "200e3e7e-7c6f-4b22-80d1-5277221e1a18",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/03.jpg",
-      "path": "takaful-suhar-report/initiatives/03.jpg"
+      "id": "bab4d26b-6e29-4d7d-85f0-e31cc83eae61",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789882954684-ppw60qz.jpg",
+      "path": "takaful-suhar-report/initiatives/1789882954684-ppw60qz.jpg"
     },
     {
-      "id": "dc12a6e1-90a8-4c4d-9a8e-ed012c95c577",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/04.jpg",
-      "path": "takaful-suhar-report/initiatives/04.jpg"
+      "id": "a9a43df4-a88b-4a40-a972-6283f9f88638",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789883003585-rjyojqj.jpg",
+      "path": "takaful-suhar-report/initiatives/1789883003585-rjyojqj.jpg"
     },
     {
-      "id": "d3fa8011-02ca-4024-b344-c35ce4036065",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/05.jpg",
-      "path": "takaful-suhar-report/initiatives/05.jpg"
+      "id": "ea5259cd-deaa-406f-8cda-f7c887f5e62d",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789883279988-dkldn8t.jpg",
+      "path": "takaful-suhar-report/initiatives/1789883279988-dkldn8t.jpg"
+    },
+    {
+      "id": "13ac0fbd-210f-4a6b-acf0-93f2d1d9ea64",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789883368224-ix2hfkp.jpg",
+      "path": "takaful-suhar-report/initiatives/1789883368224-ix2hfkp.jpg"
+    },
+    {
+      "id": "1f43f1f0-7c95-40e3-b471-263a6884322f",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789883468959-uw3mdi4.jpg",
+      "path": "takaful-suhar-report/initiatives/1789883468959-uw3mdi4.jpg"
+    },
+    {
+      "id": "d52e10c2-7555-4b23-a534-10e6cf38964c",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789883500920-75r0fwn.jpg",
+      "path": "takaful-suhar-report/initiatives/1789883500920-75r0fwn.jpg"
+    },
+    {
+      "id": "cffde155-cb32-4541-ab62-ca6c8bc0ba84",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/initiatives/1789883511213-1carqst.jpg",
+      "path": "takaful-suhar-report/initiatives/1789883511213-1carqst.jpg"
     }
   ],
   "partnerSections": [
     {
       "id": "cfi226i6",
-      "subtitle": "شكرا لشركائنا في حملة نتكافل للتبرع بالدم",
+      "subtitle": "شكرا لشركائنا في برنامج سلم",
       "logos": [
         {
-          "id": "fe89b662-2a17-4050-9787-42fc30675ce7",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/cfi226i6/01.jpg",
-          "path": "takaful-suhar-report/partners/cfi226i6/01.jpg"
+          "id": "71307ed5-f123-4422-b23e-63b9c4c072f8",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888617012-7anl36e.png",
+          "path": "takaful-suhar-report/partners/1789888617012-7anl36e.png"
         },
         {
-          "id": "adedac8c-50b5-46a1-bb98-79c23b548058",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/cfi226i6/02.jpg",
-          "path": "takaful-suhar-report/partners/cfi226i6/02.jpg"
+          "id": "316370ab-5dc2-476a-9360-90a5da44406e",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888674886-0tcqw1o.png",
+          "path": "takaful-suhar-report/partners/1789888674886-0tcqw1o.png"
+        },
+        {
+          "id": "f9e73f10-f073-43f9-8e5b-5ae2cd223ca1",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888697038-v2cyy9t.png",
+          "path": "takaful-suhar-report/partners/1789888697038-v2cyy9t.png"
+        },
+        {
+          "id": "35c3ea42-cecd-4039-a523-d93b397bc411",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888824592-vtz3ipy.png",
+          "path": "takaful-suhar-report/partners/1789888824592-vtz3ipy.png"
+        },
+        {
+          "id": "c020d8a1-fb15-448c-8804-9570442b89fe",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888825676-qv7962v.png",
+          "path": "takaful-suhar-report/partners/1789888825676-qv7962v.png"
+        },
+        {
+          "id": "5fb17734-3ab0-4c7c-811f-7bf1b83dc8e5",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888825942-ag73m3w.png",
+          "path": "takaful-suhar-report/partners/1789888825942-ag73m3w.png"
+        },
+        {
+          "id": "968f0623-431c-4f25-91b7-8b7143cc58cf",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888826375-hjb2bb8.png",
+          "path": "takaful-suhar-report/partners/1789888826375-hjb2bb8.png"
+        },
+        {
+          "id": "6d0d60c2-9be6-4ae3-b77f-21c229fb6828",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888826625-iohygea.png",
+          "path": "takaful-suhar-report/partners/1789888826625-iohygea.png"
+        },
+        {
+          "id": "b6f82ad2-e367-4270-bb95-edba065a0c99",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888827127-46a5nfm.png",
+          "path": "takaful-suhar-report/partners/1789888827127-46a5nfm.png"
+        },
+        {
+          "id": "b42e5210-564d-4e1a-8a97-4b35698b3517",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888882963-j2g28yj.png",
+          "path": "takaful-suhar-report/partners/1789888882963-j2g28yj.png"
+        },
+        {
+          "id": "1c840972-ad0c-401e-9fd8-050492262a0b",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789888883256-a1lv8vp.png",
+          "path": "takaful-suhar-report/partners/1789888883256-a1lv8vp.png"
         }
       ]
     },
     {
       "id": "c4u3euiv",
-      "subtitle": "شكرا لشركائنا في مبادرة اعادة التدوير",
+      "subtitle": "شكرا للشريك الحصري في مبادرة إعادة تدوير البلاستيك",
       "logos": [
         {
-          "id": "c95fc87d-bce2-4ba4-85d9-03bd489381d1",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/c4u3euiv/01.jpg",
-          "path": "takaful-suhar-report/partners/c4u3euiv/01.jpg"
-        },
-        {
-          "id": "75a1ccf2-7edf-495c-b650-81f113b675c2",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/c4u3euiv/02.jpg",
-          "path": "takaful-suhar-report/partners/c4u3euiv/02.jpg"
+          "id": "f9f9ff31-9855-4866-b390-6db01d56adb1",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889493983-i7wilj6.png",
+          "path": "takaful-suhar-report/partners/1789889493983-i7wilj6.png"
         }
       ]
     },
     {
       "id": "chf6fgnm",
-      "subtitle": "مشروع ث",
+      "subtitle": "شكرا للجهات الداعمة لحملة نتكافل للتبرع بالدم 23 ",
       "logos": [
         {
-          "id": "40f72c63-1bde-40a9-817e-5f4fd71fb53b",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/chf6fgnm/01.jpg",
-          "path": "takaful-suhar-report/partners/chf6fgnm/01.jpg"
+          "id": "35b0990e-09d4-4d5a-9a5b-aa1b1486f5f9",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889603354-umw9g7z.png",
+          "path": "takaful-suhar-report/partners/1789889603354-umw9g7z.png"
+        },
+        {
+          "id": "ca603d18-8131-4933-abed-85abbc1f6f52",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889667654-jxqzhqk.png",
+          "path": "takaful-suhar-report/partners/1789889667654-jxqzhqk.png"
+        },
+        {
+          "id": "0a8be638-27cf-4511-8524-16046d02387e",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889668202-a47tb2s.png",
+          "path": "takaful-suhar-report/partners/1789889668202-a47tb2s.png"
+        },
+        {
+          "id": "da5ed390-d274-4519-b138-49ecc6cfa456",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889668578-5winhvr.png",
+          "path": "takaful-suhar-report/partners/1789889668578-5winhvr.png"
+        },
+        {
+          "id": "68824343-16ed-4b96-bf2d-0fa5228dbaaf",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889668826-htulr20.png",
+          "path": "takaful-suhar-report/partners/1789889668826-htulr20.png"
+        }
+      ]
+    },
+    {
+      "id": "c25ogzya",
+      "subtitle": "شكرا لشركائنا في حملة نتكافل للتبرع بالدم 23",
+      "logos": [
+        {
+          "id": "1d6c2c44-7f21-42d3-a606-8c44060e2a3f",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889938733-qm0ycef.png",
+          "path": "takaful-suhar-report/partners/1789889938733-qm0ycef.png"
+        },
+        {
+          "id": "624bddbc-914b-405d-9092-211f251e9b7b",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889939882-xnvgqts.png",
+          "path": "takaful-suhar-report/partners/1789889939882-xnvgqts.png"
+        },
+        {
+          "id": "08680d96-0ab5-454d-a825-68a75eed8fb4",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889940286-l6nwxyd.png",
+          "path": "takaful-suhar-report/partners/1789889940286-l6nwxyd.png"
+        },
+        {
+          "id": "075beced-3cdd-428e-99fa-fdc4a95011da",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889940642-0to96ns.png",
+          "path": "takaful-suhar-report/partners/1789889940642-0to96ns.png"
+        },
+        {
+          "id": "80b4fdf4-3ba8-423b-a4f8-e554b30bbe02",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889940929-q6wazrs.png",
+          "path": "takaful-suhar-report/partners/1789889940929-q6wazrs.png"
+        },
+        {
+          "id": "1fc8b055-071b-4b52-8d7b-863847524df9",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889941217-5k4ipmn.png",
+          "path": "takaful-suhar-report/partners/1789889941217-5k4ipmn.png"
+        },
+        {
+          "id": "0c30c61f-2ce5-445b-b9af-eea7d21101d1",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/partners/1789889941556-n2biut1.png",
+          "path": "takaful-suhar-report/partners/1789889941556-n2biut1.png"
         }
       ]
     }
