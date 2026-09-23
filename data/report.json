@@ -1,42 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T07:42:16.282Z",
+  "generatedAt": "2026-09-23T07:45:08.066Z",
   "report": {
-    "monthName": "أغسطس",
+    "monthName": "أغسـطس",
     "year": "2026",
     "totalWords": "مئة وثلاثة آلاف وستمئة وثلاثة وعشرون ريالاً عُمانياً",
     "initiativesNote": "- سُلّم: برنامج تعليمي. - \n\n حملة التبرع بالدم (23) : \"آن الأوان\" - \n\n توفير أسطوانات ومنظمات الأكسجين لمجمع صحار الصحي - \n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
-    "lastUpdated": "2026-09-20T07:48:36.808+00:00"
+    "lastUpdated": "2026-09-23T07:18:47.502+00:00"
   },
   "highlight": {
     "id": "fc5cadba-2e9f-45bc-acc3-458b435ad09d",
-    "title": "اكثر من ٥٠٠ متبرع ",
-    "text": "هذا مجرد اختبار تلتنتا تزوز تلنتلن نان",
+    "title": "- حفل ختام برنامج سلم تحت رعاية المكرمة الدكتورة حنيفة بنت أحمد القاسمية",
+    "text": "​١) البرنامج التدريبي (سُلّم):\nختام فعاليات البرنامج التدريبي \"سُلّم\" المخصص لطلاب الثانوية العامة، والذي امتد لشهر كامل بمشاركة 40 طالباً وطالبة لصقل مهاراتهم المستقبلية.\n\n٢) مشروع مبنى تكافل الوقفي:\nصبّ أعمدة الدور الأرضي في مبنى تكافل الوقفي بالصويحرة، استمراراً للخطوات الإنشائية للمشروع.\n\n٣) ​حملة نتكافل للتبرع بالدم:\nتنفيذ النسخة الثالثة والعشرين من حملة \"نتكافل\" للتبرع بالدم تحت شعار (آن الأوان)، بمشاركة مجتمعية واسعة بلغت 501 متبرعاً.\n\n٤) مشروع الحقيبة المدرسية (مداد وقرطاس):\nتوزيع 331 حقيبة مدرسية متكاملة لتوفير الاحتياجات الأساسية للطلبة مع انطلاقة العام الدراسي.\n\n٥) ​مشروع الملابس المدرسية:\nتفصيل وتوفير 1,426 زيّاً مدرسياً لـ 713 طالباً وطالبة، بقيمة إجمالية بلغت 8,895.4 ريال عماني، سعياً لتخفيف الأعباء عن عائلاتهم وحفظ كرامتهم.",
     "images": [
       {
-        "id": "9921a290-f6d3-4e18-8b04-150313c43b8a",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/01.jpg",
-        "path": "takaful-suhar-report/highlight/01.jpg"
+        "id": "20e80dda-9708-452d-ae6f-fcdd37f09c85",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/1790066051413-5t7x4l1.jpg",
+        "path": "takaful-suhar-report/highlight/1790066051413-5t7x4l1.jpg"
       },
       {
-        "id": "79fa88c7-e65d-4132-a410-ef5241c597cc",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/03.jpg",
-        "path": "takaful-suhar-report/highlight/03.jpg"
+        "id": "92cb57e4-b5ad-4442-b2a9-3283a61e4e04",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/1790066052121-ppsuchk.jpg",
+        "path": "takaful-suhar-report/highlight/1790066052121-ppsuchk.jpg"
       },
       {
-        "id": "5870e32a-93d1-4ea7-8573-046264d383bb",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/04.jpg",
-        "path": "takaful-suhar-report/highlight/04.jpg"
-      },
-      {
-        "id": "b7ceb042-3feb-4eb0-bc92-ab301941064e",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/05.jpg",
-        "path": "takaful-suhar-report/highlight/05.jpg"
-      },
-      {
-        "id": "ff1096b1-370d-4fd7-bbb3-58d026574bd5",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/06.jpg",
-        "path": "takaful-suhar-report/highlight/06.jpg"
+        "id": "74b398d9-2018-4ba8-8869-306cbd1fd6c1",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/highlight/1790066052728-14k5ltg.jpg",
+        "path": "takaful-suhar-report/highlight/1790066052728-14k5ltg.jpg"
       }
     ]
   },
@@ -176,7 +166,7 @@
       "title": "الحقيبة المدرسية ",
       "amount": 15315,
       "countText": "3013 طالب/ ـة",
-      "detailText": "",
+      "detailText": "يوفر المشروع الحقائب والمستلزمات المدرسية للطلبة من الأسر المستحقة، دعمًا لهم مع بداية العام الدراسي وتعزيزًا لفرصهم في بدء عامهم الدراسي باحتياجات أساسية مكتملة.",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 13
@@ -186,7 +176,7 @@
       "title": "الأوقاف و الاستثمار",
       "amount": 7951,
       "countText": "مشروعين",
-      "detailText": "",
+      "detailText": "- الأوقاف والاستثمار\nيُعنى هذا المسار بتنمية واستدامة الموارد المالية للفريق من خلال المشاريع الوقفية والاستثمارية، بما يساهم في إيجاد مصادر دخل مستدامة تدعم البرامج والمشاريع الخيرية مستقبلًا.",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 14
@@ -196,7 +186,7 @@
       "title": "الملابس المدرسية ",
       "amount": 8851,
       "countText": "709 ",
-      "detailText": "",
+      "detailText": "يهدف المشروع إلى توفير الملابس المدرسية للطلبة من الأسر المستحقة، بما يضمن استعدادهم للعام الدراسي وتخفيف الأعباء المالية عن أسرهم.\nتم توزيع : \n832 زي مدرسي للطلاب \n586 زي مدرسي للطالبات",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 15
