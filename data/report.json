@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-23T07:45:08.066Z",
+  "generatedAt": "2026-09-24T07:35:43.637Z",
   "report": {
     "monthName": "أغسـطس",
     "year": "2026",
-    "totalWords": "مئة وثلاثة آلاف وستمئة وثلاثة وعشرون ريالاً عُمانياً",
+    "totalWords": "مئة وثلاثة آلاف وستمئة وسبعة وستون ريالاً عُمانياً",
     "initiativesNote": "- سُلّم: برنامج تعليمي. - \n\n حملة التبرع بالدم (23) : \"آن الأوان\" - \n\n توفير أسطوانات ومنظمات الأكسجين لمجمع صحار الصحي - \n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
-    "lastUpdated": "2026-09-23T07:18:47.502+00:00"
+    "lastUpdated": "2026-09-24T05:22:46.798+00:00"
   },
   "highlight": {
     "id": "fc5cadba-2e9f-45bc-acc3-458b435ad09d",
@@ -37,8 +37,8 @@
       "amount": 26360,
       "countText": "721 يتيم",
       "detailText": "- كفالة الأيتام\nيهدف برنامج كفالة الأيتام إلى توفير دعم شهري مستمر للأيتام، بما يسهم في تلبية احتياجاتهم الأساسية ومساندتهم في مراحل حياتهم المختلفة.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/c1.jpg",
-      "detailImagePath": "takaful-suhar-report/categories/c1.jpg",
+      "detailImage": "",
+      "detailImagePath": "",
       "sortOrder": 0
     },
     {
@@ -47,8 +47,8 @@
       "amount": 7180,
       "countText": "215 أسرة",
       "detailText": "- كفالة أسرة معسرة\nيهدف البرنامج إلى تقديم دعم مالي دوري للأسر المستحقة، بما يساعدها على مواجهة احتياجاتها المعيشية الأساسية وتحسين استقرارها المادي.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/takaful-suhar-report/categories/1789018012868-rmi2pi1.jpg",
-      "detailImagePath": "takaful-suhar-report/categories/1789018012868-rmi2pi1.jpg",
+      "detailImage": "",
+      "detailImagePath": "",
       "sortOrder": 1
     },
     {
@@ -56,7 +56,7 @@
       "title": "كفالة طالب جامعي",
       "amount": 1755,
       "countText": "58 طالباً",
-      "detailText": "",
+      "detailText": "يهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.",
       "detailImage": "",
       "detailImagePath": "",
       "sortOrder": 2
@@ -184,7 +184,7 @@
     {
       "id": "c9890bdz",
       "title": "الملابس المدرسية ",
-      "amount": 8851,
+      "amount": 8895,
       "countText": "709 ",
       "detailText": "يهدف المشروع إلى توفير الملابس المدرسية للطلبة من الأسر المستحقة، بما يضمن استعدادهم للعام الدراسي وتخفيف الأعباء المالية عن أسرهم.\nتم توزيع : \n832 زي مدرسي للطلاب \n586 زي مدرسي للطالبات",
       "detailImage": "",
