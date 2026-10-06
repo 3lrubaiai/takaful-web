@@ -247,7 +247,15 @@
   .foot-row img{ display:block; }
   .updated{ text-align:center; color:rgba(238,247,239,.4); font-size:11.5px; font-weight:300; margin-top:18px; }
 
-  .admin-bar{
+  .reports-modal{max-width:760px !important;width:min(94vw,760px);}
+.report-row{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:12px;border:1px solid rgba(0,0,0,.08);border-radius:14px;margin-bottom:8px;background:#fff;}
+.report-row-main{min-width:0;}
+.report-row-title{font-weight:800;font-size:17px;}
+.report-row-meta{font-size:12px;opacity:.7;margin-top:3px;}
+.report-row-actions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;}
+.report-status{display:inline-flex;padding:3px 8px;border-radius:999px;font-size:11px;margin-inline-start:6px;background:#eee;}
+@media(max-width:600px){.report-row{grid-template-columns:1fr}.report-row-actions{justify-content:flex-start}.reports-create{grid-template-columns:1fr !important;}}
+.admin-bar{
     position:fixed; bottom:16px; inset-inline-end:16px; z-index:5; display:flex; align-items:center; gap:8px;
   }
   .btn{
@@ -342,6 +350,7 @@
 
 <div class="admin-bar">
   <button class="btn btn-ghost" id="sound-toggle" title="إيقاف النشيد" aria-label="إيقاف النشيد">🔊</button>
+  <button class="btn btn-ghost" id="reports-btn" style="display:none;">التقارير الشهرية</button>
   <button class="btn btn-primary" id="save-btn" style="display:none;">حفظ التحديثات</button>
   <button class="btn btn-ghost" id="admin-toggle">وضع التعديل</button>
 </div>
@@ -363,6 +372,22 @@
     </div>
     <button class="btn btn-ghost" id="admin-logout" type="button" style="display:none;width:100%;margin-top:8px;">تسجيل الخروج</button>
     <p class="hint">الدخول يتم عبر Supabase Auth، ولا توجد كلمة مرور محفوظة داخل الصفحة.</p>
+  </div>
+</div>
+
+<div class="modal-bg" id="reports-modal">
+  <div class="modal reports-modal">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
+      <h3 style="margin:0;">إدارة التقارير الشهرية</h3>
+      <button class="btn btn-ghost" id="reports-close" type="button">✕</button>
+    </div>
+    <p class="hint" style="margin-top:8px;">كل تقرير مستقل. نسخ التقرير ينسخ الأرقام والبنود والتفاصيل والصور والشركاء إلى تقرير جديد.</p>
+    <div class="reports-create" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0;">
+      <input class="field" id="new-report-month" type="text" placeholder="الشهر الجديد - مثال: سبتمبر">
+      <input class="field" id="new-report-year" type="number" min="2000" max="2100" placeholder="السنة">
+    </div>
+    <button class="btn btn-primary" id="clone-current-report" type="button" style="width:100%;">تكرار التقرير الحالي</button>
+    <div id="reports-list" style="margin-top:16px;max-height:52vh;overflow:auto;"></div>
   </div>
 </div>
 
@@ -399,7 +424,9 @@ async function ensureSupabaseClient(){
   return supabaseClient;
 }
 
-const REPORT_ID = "takaful-suhar-report";
+const DEFAULT_REPORT_ID = "takaful-suhar-report";
+let REPORT_ID = DEFAULT_REPORT_ID;
+let REPORT_SLUG = new URLSearchParams(location.search).get("report") || "";
 const STORAGE_BUCKET = "report-images";
 const LANG_KEY = "lang-pref";
 
@@ -444,6 +471,10 @@ const T = {
 
 function defaultState(){
   return {
+    reportId: DEFAULT_REPORT_ID,
+    reportSlug: "2026-08",
+    reportStatus: "published",
+    monthNumber: 8,
     monthName:"أغسطس",
     year:"2026",
     totalWords:"",
@@ -529,20 +560,20 @@ async function deleteStoragePath(path){
   if(error) console.warn('Storage delete warning:', error);
 }
 
-async function loadStateFromDatabase(){
+async function loadStateFromDatabase(reportId = reportId){
   const { data: report, error: reportError } = await supabaseClient
     .from('reports')
     .select('id, month_name, year, total_words, initiatives_note, last_updated')
-    .eq('id', REPORT_ID)
+    .eq('id', reportId)
     .maybeSingle();
   if(reportError) throw reportError;
   if(!report) return null;
 
   const [categoriesRes, highlightRes, initiativeImagesRes, partnerSectionsRes] = await Promise.all([
-    supabaseClient.from('categories').select('id, title, amount, count_text, detail_text, detail_image_url, detail_image_path, sort_order').eq('report_id', REPORT_ID).order('sort_order', {ascending:true}),
-    supabaseClient.from('highlight_stories').select('id, title, text').eq('report_id', REPORT_ID).maybeSingle(),
-    supabaseClient.from('initiative_images').select('id, image_url, image_path, sort_order').eq('report_id', REPORT_ID).order('sort_order', {ascending:true}),
-    supabaseClient.from('partner_sections').select('id, subtitle, sort_order').eq('report_id', REPORT_ID).order('sort_order', {ascending:true})
+    supabaseClient.from('categories').select('id, title, amount, count_text, detail_text, detail_image_url, detail_image_path, sort_order').eq('report_id', reportId).order('sort_order', {ascending:true}),
+    supabaseClient.from('highlight_stories').select('id, title, text').eq('report_id', reportId).maybeSingle(),
+    supabaseClient.from('initiative_images').select('id, image_url, image_path, sort_order').eq('report_id', reportId).order('sort_order', {ascending:true}),
+    supabaseClient.from('partner_sections').select('id, subtitle, sort_order').eq('report_id', reportId).order('sort_order', {ascending:true})
   ]);
   for(const r of [categoriesRes, highlightRes, initiativeImagesRes, partnerSectionsRes]) if(r.error) throw r.error;
 
@@ -564,6 +595,10 @@ async function loadStateFromDatabase(){
   const logos = logosRes.data || [];
 
   return {
+    reportId: report.id,
+    reportSlug: report.slug || '',
+    reportStatus: report.status || 'published',
+    monthNumber: Number(report.month_number) || 0,
     monthName: report.month_name || '',
     year: String(report.year || ''),
     highlight: {
@@ -587,11 +622,14 @@ async function loadStateFromDatabase(){
   };
 }
 
-async function saveStateToDatabase(){
+async function saveStateToDatabase(reportId = reportId){
   await ensureSupabaseClient();
   const now = new Date().toISOString();
   const reportPayload = {
-    id: REPORT_ID,
+    id: reportId,
+    slug: state.reportSlug || `${state.year || ''}-${String(state.monthNumber || monthNumberFromName(state.monthName)).padStart(2,'0')}`,
+    month_number: Number(state.monthNumber || monthNumberFromName(state.monthName)) || null,
+    status: state.reportStatus || 'draft',
     month_name: state.monthName || '',
     year: state.year || '',
     total_words: state.totalWords || '',
@@ -601,14 +639,14 @@ async function saveStateToDatabase(){
   const {error: reportError} = await supabaseClient.from('reports').upsert(reportPayload, {onConflict:'id'});
   if(reportError) throw reportError;
 
-  const {data: oldHighlight} = await supabaseClient.from('highlight_stories').select('id').eq('report_id', REPORT_ID).maybeSingle();
+  const {data: oldHighlight} = await supabaseClient.from('highlight_stories').select('id').eq('report_id', reportId).maybeSingle();
   let highlightId = oldHighlight?.id || state.highlight?.id || null;
   if(state.highlight && (state.highlight.title || state.highlight.text || (state.highlight.images||[]).length)){
     if(highlightId){
       const {error} = await supabaseClient.from('highlight_stories').update({title:state.highlight.title||'', text:state.highlight.text||''}).eq('id',highlightId);
       if(error) throw error;
     }else{
-      const {data,error} = await supabaseClient.from('highlight_stories').insert({report_id:REPORT_ID,title:state.highlight.title||'',text:state.highlight.text||''}).select('id').single();
+      const {data,error} = await supabaseClient.from('highlight_stories').insert({report_id:reportId,title:state.highlight.title||'',text:state.highlight.text||''}).select('id').single();
       if(error) throw error;
       highlightId = data.id;
       state.highlight.id = highlightId;
@@ -622,7 +660,7 @@ async function saveStateToDatabase(){
     highlightId = null;
   }
 
-  const {data: dbCats, error: dbCatsError} = await supabaseClient.from('categories').select('id, detail_image_path').eq('report_id',REPORT_ID);
+  const {data: dbCats, error: dbCatsError} = await supabaseClient.from('categories').select('id, detail_image_path').eq('report_id',reportId);
   if(dbCatsError) throw dbCatsError;
   const currentCatIds = state.categories.map(c=>String(c.id));
   const removedCats = (dbCats||[]).filter(c=>!currentCatIds.includes(String(c.id)));
@@ -633,7 +671,7 @@ async function saveStateToDatabase(){
   }
   if(state.categories.length){
     const rows = state.categories.map((c,i)=>({
-      id:String(c.id), report_id:REPORT_ID, title:c.title||'', amount:Number(c.amount)||0,
+      id:String(c.id), report_id:reportId, title:c.title||'', amount:Number(c.amount)||0,
       count_text:c.countText||'', detail_text:c.detailText||'', detail_image_url:c.detailImage||'',
       detail_image_path:c.detailImagePath||'', sort_order:i
     }));
@@ -641,7 +679,7 @@ async function saveStateToDatabase(){
     if(error) throw error;
   }
 
-  const {data: dbInit, error: dbInitError} = await supabaseClient.from('initiative_images').select('id,image_path').eq('report_id',REPORT_ID);
+  const {data: dbInit, error: dbInitError} = await supabaseClient.from('initiative_images').select('id,image_path').eq('report_id',reportId);
   if(dbInitError) throw dbInitError;
   const initIds = (state.initiativeImages||[]).map(x=>String(x.id));
   for(const row of (dbInit||[]).filter(x=>!initIds.includes(String(x.id)))){
@@ -650,12 +688,12 @@ async function saveStateToDatabase(){
     if(error) throw error;
   }
   if((state.initiativeImages||[]).length){
-    const rows = state.initiativeImages.map((x,i)=>({id:x.id,report_id:REPORT_ID,image_url:x.url,image_path:x.path,sort_order:i}));
+    const rows = state.initiativeImages.map((x,i)=>({id:x.id,report_id:reportId,image_url:x.url,image_path:x.path,sort_order:i}));
     const {error} = await supabaseClient.from('initiative_images').upsert(rows,{onConflict:'id'});
     if(error) throw error;
   }
 
-  const {data: dbSections, error: dbSecError} = await supabaseClient.from('partner_sections').select('id').eq('report_id',REPORT_ID);
+  const {data: dbSections, error: dbSecError} = await supabaseClient.from('partner_sections').select('id').eq('report_id',reportId);
   if(dbSecError) throw dbSecError;
   const secIds = (state.partnerSections||[]).map(s=>String(s.id));
   for(const row of (dbSections||[]).filter(x=>!secIds.includes(String(x.id)))){
@@ -665,7 +703,7 @@ async function saveStateToDatabase(){
     if(error) throw error;
   }
   if((state.partnerSections||[]).length){
-    const rows = state.partnerSections.map((s,i)=>({id:String(s.id),report_id:REPORT_ID,subtitle:s.subtitle||'',sort_order:i}));
+    const rows = state.partnerSections.map((s,i)=>({id:String(s.id),report_id:reportId,subtitle:s.subtitle||'',sort_order:i}));
     const {error} = await supabaseClient.from('partner_sections').upsert(rows,{onConflict:'id'});
     if(error) throw error;
     for(const s of state.partnerSections){
@@ -748,6 +786,10 @@ async function migrateLegacyStateIfNeeded(){
 
 async function normalizeState(loaded){
   state = loaded || defaultState();
+  state.reportId = state.reportId || REPORT_ID;
+  state.reportSlug = state.reportSlug || REPORT_SLUG || `${state.year || ''}-${String(state.monthNumber || 0).padStart(2,'0')}`;
+  state.reportStatus = state.reportStatus || 'published';
+  state.monthNumber = Number(state.monthNumber) || 0;
   state.highlight = state.highlight || {title:'',text:'',images:[]};
   state.highlight.images = state.highlight.images || [];
   state.categories = (state.categories||[]).map(c=>({
@@ -767,10 +809,15 @@ function snapshotUrl(){
 }
 
 async function loadStateFromSnapshot(){
-  const response = await fetch(snapshotUrl() + '?v=' + Date.now(), {cache:'no-store'});
+  const key = REPORT_SLUG ? `data/reports/${encodeURIComponent(REPORT_SLUG)}.json` : 'data/report.json';
+  const response = await fetch(new URL('./' + key, document.baseURI).href + '?v=' + Date.now(), {cache:'no-store'});
   if(!response.ok) throw new Error('تعذر تحميل ملف التقرير الثابت: HTTP ' + response.status);
   const payload = await response.json();
   return {
+    reportId: payload.report?.id || REPORT_ID,
+    reportSlug: payload.report?.slug || REPORT_SLUG || '',
+    reportStatus: payload.report?.status || 'published',
+    monthNumber: Number(payload.report?.monthNumber || 0),
     monthName: payload.report?.monthName || '',
     year: String(payload.report?.year || ''),
     totalWords: payload.report?.totalWords || '',
@@ -865,30 +912,9 @@ function escapeHtml(str){
 
 /* ---------- translation via the built-in Claude API bridge ---------- */
 async function translateTexts(list){
-  const uniq = [...new Set(list.filter(s => s && s.trim().length))];
-  const need = uniq.filter(s => !translationCache[s]);
-  if(!need.length) return;
-  try{
-    const prompt = "Translate each of the following Arabic phrases into short, natural English suited for a nonprofit financial report UI. " +
-      "Return ONLY a raw JSON array of strings, same order, same length, no commentary, no markdown fences.\n\n" +
-      JSON.stringify(need, null, 0);
-    const response = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-6",
-        max_tokens: 1000,
-        messages: [{ role: "user", content: prompt }]
-      })
-    });
-    const data = await response.json();
-    let text = (data.content||[]).map(b=>b.text||'').join('');
-    text = text.trim().replace(/^```json/,'').replace(/^```/,'').replace(/```$/,'').trim();
-    const arr = JSON.parse(text);
-    need.forEach((orig,i)=>{ if(typeof arr[i] === 'string') translationCache[orig] = arr[i]; });
-  }catch(e){
-    // translation unavailable (e.g. hosted outside Claude.ai) — fall back silently to original text
-  }
+  // Public GitHub Pages must not call a private translation API directly.
+  // Keep Arabic text as the safe fallback when no pre-translated value exists.
+  return;
 }
 
 function tr(str){
@@ -927,6 +953,8 @@ function render(){
   renderBody(t);
 
   document.getElementById('save-btn').style.display = isAdmin ? 'inline-flex' : 'none';
+  const reportsBtn = document.getElementById('reports-btn');
+  if(reportsBtn) reportsBtn.style.display = isAdmin ? 'inline-flex' : 'none';
   document.getElementById('admin-toggle').textContent = isAdmin ? 'إنهاء التعديل' : 'وضع التعديل';
 
   const upd = document.getElementById('updated-line');
@@ -1236,6 +1264,8 @@ function attachHandlers(t){
     }
   };
   document.getElementById('save-btn').onclick = saveState;
+  const reportsBtn = document.getElementById('reports-btn');
+  if(reportsBtn) reportsBtn.onclick = openReportsManager;
 }
 
 function attachBodyHandlers(t){
@@ -1508,7 +1538,18 @@ async function tryPin(){
     isAdmin = !!data.session;
     lang = 'ar';
     setLocalLanguage(lang);
-    const authoritative = await loadStateFromDatabase();
+    await ensureSupabaseClient();
+    if(REPORT_SLUG){
+      const {data:rr,error:re}=await supabaseClient.from('reports').select('id,slug').eq('slug',REPORT_SLUG).maybeSingle();
+      if(re) throw re;
+      if(!rr) throw new Error('التقرير المطلوب غير موجود');
+      REPORT_ID=String(rr.id);
+    }else{
+      const {data:rr,error:re}=await supabaseClient.from('reports').select('id,slug').eq('status','published').order('year',{ascending:false}).order('month_number',{ascending:false}).limit(1).maybeSingle();
+      if(re) throw re;
+      if(rr){REPORT_ID=String(rr.id); REPORT_SLUG=rr.slug||'';}
+    }
+    const authoritative = await loadStateFromDatabase(REPORT_ID);
     await normalizeState(authoritative || defaultState());
 
     document.getElementById('pin-modal').classList.remove('show');
@@ -1535,6 +1576,15 @@ async function logoutAdmin(){
   }
   isAdmin = false;
   document.getElementById('pin-modal').classList.remove('show');
+  REPORT_ID = DEFAULT_REPORT_ID;
+  REPORT_SLUG = '';
+  try{ history.replaceState(null,'',location.pathname); }catch(e){}
+  try{
+    const publicState = await loadStateFromSnapshot();
+    await normalizeState(publicState);
+  }catch(e){
+    console.warn('Public snapshot restore failed:',e);
+  }
   render();
   showToast("تم تسجيل الخروج");
 }
@@ -1556,6 +1606,214 @@ async function initSupabaseAuth(){
   }
 }
 
+
+
+function reportTitle(r){
+  return `${r.month_name || ''} ${r.year || ''}`.trim();
+}
+
+function monthNumberFromName(name){
+  const m={'يناير':1,'فبراير':2,'مارس':3,'أبريل':4,'ابريل':4,'مايو':5,'يونيو':6,'يوليو':7,'أغسطس':8,'اغسطس':8,'سبتمبر':9,'أكتوبر':10,'اكتوبر':10,'نوفمبر':11,'ديسمبر':12};
+  return Number(m[String(name||'').trim()] || 0);
+}
+
+async function listReports(){
+  await ensureSupabaseClient();
+  const {data,error} = await supabaseClient
+    .from('reports')
+    .select('id,slug,month_name,month_number,year,status,last_updated,updated_at')
+    .order('year',{ascending:false})
+    .order('month_number',{ascending:false});
+  if(error) throw error;
+  return data || [];
+}
+
+function statusLabel(status){
+  return status === 'published' ? 'منشور' : status === 'archived' ? 'مؤرشف' : 'مسودة';
+}
+
+async function openReportsManager(){
+  if(!isAdmin) return;
+  const modal = document.getElementById('reports-modal');
+  modal.classList.add('show');
+  await refreshReportsList();
+}
+
+async function refreshReportsList(){
+  const box = document.getElementById('reports-list');
+  box.innerHTML = '<div class="loading">جارِ تحميل التقارير…</div>';
+  try{
+    const reports = await listReports();
+    if(!reports.length){ box.innerHTML = '<p class="hint">لا توجد تقارير.</p>'; return; }
+    box.innerHTML = reports.map(r=>{
+      const active = String(r.id) === String(REPORT_ID);
+      return `<div class="report-row">
+        <div class="report-row-main">
+          <div class="report-row-title">${escapeHtml(reportTitle(r))}${active ? ' <span class="report-status">الحالي</span>' : ''}</div>
+          <div class="report-row-meta">${escapeHtml(r.slug||'')} · ${statusLabel(r.status||'draft')}</div>
+        </div>
+        <div class="report-row-actions">
+          <button class="btn btn-ghost" type="button" data-report-open="${escapeHtml(String(r.id))}">فتح</button>
+          <button class="btn btn-primary" type="button" data-report-clone="${escapeHtml(String(r.id))}">نسخ</button>
+          ${r.status !== 'published' ? `<button class="btn btn-ghost" type="button" data-report-publish="${escapeHtml(String(r.id))}">نشر</button>` : ''}
+          ${r.status === 'published' && !active ? `<button class="btn btn-ghost" type="button" data-report-archive="${escapeHtml(String(r.id))}">أرشفة</button>` : ''}
+        </div>
+      </div>`;
+    }).join('');
+
+    box.querySelectorAll('[data-report-open]').forEach(btn=>btn.onclick=()=>openReportById(btn.dataset.reportOpen));
+    box.querySelectorAll('[data-report-clone]').forEach(btn=>btn.onclick=()=>cloneReportFromId(btn.dataset.reportClone));
+    box.querySelectorAll('[data-report-publish]').forEach(btn=>btn.onclick=()=>setReportStatus(btn.dataset.reportPublish,'published'));
+    box.querySelectorAll('[data-report-archive]').forEach(btn=>btn.onclick=()=>setReportStatus(btn.dataset.reportArchive,'archived'));
+  }catch(e){
+    console.error(e);
+    box.innerHTML = `<p class="hint">تعذر تحميل التقارير: ${escapeHtml(e.message||'خطأ غير معروف')}</p>`;
+  }
+}
+
+async function openReportById(id){
+  try{
+    const reportRows = await supabaseClient.from('reports').select('id,slug').eq('id',id).limit(1);
+    if(reportRows.error) throw reportRows.error;
+    const r = reportRows.data?.[0];
+    if(!r) throw new Error('التقرير غير موجود');
+    REPORT_ID = String(r.id);
+    REPORT_SLUG = r.slug || '';
+    if(REPORT_SLUG) history.replaceState(null,'',`?report=${encodeURIComponent(REPORT_SLUG)}`);
+    const loaded = await loadStateFromDatabase(REPORT_ID);
+    await normalizeState(loaded || defaultState());
+    document.getElementById('reports-modal').classList.remove('show');
+    render();
+    showToast(`تم فتح ${state.monthName} ${state.year} ✓`);
+  }catch(e){ showToast('تعذر فتح التقرير: ' + (e.message||'خطأ')); }
+}
+
+async function cloneReportFromPrompt(sourceId){
+  const month = (document.getElementById('new-report-month').value || '').trim();
+  const year = Number(document.getElementById('new-report-year').value || 0);
+  if(!month || !year){ showToast('أدخل الشهر والسنة للتقرير الجديد'); return; }
+  await cloneReport(sourceId, month, year);
+}
+
+async function cloneReportFromId(sourceId){
+  const month = prompt('اكتب اسم الشهر الجديد، مثال: سبتمبر');
+  if(!month) return;
+  const yearRaw = prompt('اكتب السنة، مثال: 2026');
+  if(!yearRaw) return;
+  const year = Number(yearRaw);
+  if(!year){ showToast('السنة غير صحيحة'); return; }
+  await cloneReport(sourceId, month.trim(), year);
+}
+
+async function cloneStorageItem(item, newPath, copiedPaths){
+  if(!item?.path) return {url:item?.url||'',path:''};
+  const {error} = await supabaseClient.storage.from(STORAGE_BUCKET).copy(item.path,newPath);
+  if(error) throw error;
+  copiedPaths.push(newPath);
+  return {url:storagePublicUrl(newPath),path:newPath};
+}
+
+async function cloneReport(sourceId, monthName, year){
+  if(!isAdmin) return;
+  const newId = crypto.randomUUID();
+  const monthMap = {'يناير':1,'فبراير':2,'مارس':3,'أبريل':4,'ابريل':4,'مايو':5,'يونيو':6,'يوليو':7,'أغسطس':8,'اغسطس':8,'سبتمبر':9,'أكتوبر':10,'اكتوبر':10,'نوفمبر':11,'ديسمبر':12};
+  const monthNumber = monthMap[monthName] || Number(prompt('رقم الشهر 1-12'));
+  if(!monthNumber || monthNumber<1 || monthNumber>12){ showToast('رقم الشهر غير صحيح'); return; }
+  const slug = `${year}-${String(monthNumber).padStart(2,'0')}`;
+  const copiedPaths=[];
+  try{
+    await ensureSupabaseClient();
+    const {data:existing,error:exErr}=await supabaseClient.from('reports').select('id').eq('slug',slug).maybeSingle();
+    if(exErr) throw exErr;
+    if(existing) throw new Error(`يوجد تقرير بالفعل للشهر ${monthName} ${year}`);
+
+    const source = await loadStateFromDatabase(sourceId);
+    if(!source) throw new Error('التقرير المصدر غير موجود');
+
+    const reportRow={id:newId,slug,month_name:monthName,month_number:monthNumber,year:String(year),status:'draft',total_words:source.totalWords||'',initiatives_note:source.initiativesNote||'',last_updated:new Date().toISOString()};
+    let insertedReport=false;
+    const {error:re}=await supabaseClient.from('reports').insert(reportRow);
+    if(re) throw re; insertedReport=true;
+
+    const categoryRows=[];
+    for(let i=0;i<(source.categories||[]).length;i++){
+      const c=source.categories[i];
+      let image={url:c.detailImage||'',path:''};
+      if(c.detailImagePath) image=await cloneStorageItem({path:c.detailImagePath,url:c.detailImage},`${newId}/categories/${String(i+1).padStart(2,'0')}-${Date.now()}.jpg`,copiedPaths);
+      categoryRows.push({id:crypto.randomUUID(),report_id:newId,title:c.title||'',amount:Number(c.amount)||0,count_text:c.countText||'',detail_text:c.detailText||'',detail_image_url:image.url||'',detail_image_path:image.path||'',sort_order:i});
+    }
+    if(categoryRows.length){const {error}=await supabaseClient.from('categories').insert(categoryRows);if(error)throw error;}
+
+    if(source.highlight && (source.highlight.title||source.highlight.text||(source.highlight.images||[]).length)){
+      const hId=crypto.randomUUID();
+      const {error}=await supabaseClient.from('highlight_stories').insert({id:hId,report_id:newId,title:source.highlight.title||'',text:source.highlight.text||''});
+      if(error)throw error;
+      const hRows=[];
+      for(let i=0;i<(source.highlight.images||[]).length;i++){
+        const im=source.highlight.images[i];
+        let copied=im;
+        if(im?.path) copied=await cloneStorageItem(im,`${newId}/highlight/${String(i+1).padStart(2,'0')}-${Date.now()}.jpg`,copiedPaths);
+        hRows.push({id:crypto.randomUUID(),highlight_id:hId,image_url:copied.url||'',image_path:copied.path||'',sort_order:i});
+      }
+      if(hRows.length){const {error}=await supabaseClient.from('highlight_images').insert(hRows);if(error)throw error;}
+    }
+
+    const initRows=[];
+    for(let i=0;i<(source.initiativeImages||[]).length;i++){
+      const im=source.initiativeImages[i];
+      let copied=im;
+      if(im?.path) copied=await cloneStorageItem(im,`${newId}/initiatives/${String(i+1).padStart(2,'0')}-${Date.now()}.jpg`,copiedPaths);
+      initRows.push({id:crypto.randomUUID(),report_id:newId,image_url:copied.url||'',image_path:copied.path||'',sort_order:i});
+    }
+    if(initRows.length){const {error}=await supabaseClient.from('initiative_images').insert(initRows);if(error)throw error;}
+
+    for(let i=0;i<(source.partnerSections||[]).length;i++){
+      const sec=source.partnerSections[i], secId=crypto.randomUUID();
+      const {error:se}=await supabaseClient.from('partner_sections').insert({id:secId,report_id:newId,subtitle:sec.subtitle||'',sort_order:i});
+      if(se)throw se;
+      const logoRows=[];
+      for(let j=0;j<(sec.logos||[]).length;j++){
+        const logo=sec.logos[j]; let copied=logo;
+        if(logo?.path) copied=await cloneStorageItem(logo,`${newId}/partners/${secId}/${String(j+1).padStart(2,'0')}-${Date.now()}.png`,copiedPaths);
+        logoRows.push({id:crypto.randomUUID(),partner_section_id:secId,image_url:copied.url||'',image_path:copied.path||'',sort_order:j});
+      }
+      if(logoRows.length){const {error:le}=await supabaseClient.from('partner_logos').insert(logoRows);if(le)throw le;}
+    }
+
+    REPORT_ID=newId; REPORT_SLUG=slug;
+    const loaded=await loadStateFromDatabase(newId); await normalizeState(loaded||defaultState());
+    document.getElementById('new-report-month').value=''; document.getElementById('new-report-year').value='';
+    history.replaceState(null,'',`?report=${encodeURIComponent(slug)}`);
+    await refreshReportsList();
+    render();
+    showToast(`تم تكرار التقرير إلى ${monthName} ${year} كمسودة ✓`);
+  }catch(e){
+    console.error('cloneReport error:',e);
+    if(copiedPaths.length) await supabaseClient.storage.from(STORAGE_BUCKET).remove(copiedPaths).catch(()=>{});
+    await supabaseClient.from('highlight_stories').delete().eq('report_id',newId).catch(()=>{});
+    await supabaseClient.from('initiative_images').delete().eq('report_id',newId).catch(()=>{});
+    const {data:failedSections}=await supabaseClient.from('partner_sections').select('id').eq('report_id',newId).catch(()=>({data:[]}));
+    for(const sec of (failedSections||[])) await supabaseClient.from('partner_logos').delete().eq('partner_section_id',sec.id).catch(()=>{});
+    await supabaseClient.from('partner_sections').delete().eq('report_id',newId).catch(()=>{});
+    await supabaseClient.from('categories').delete().eq('report_id',newId).catch(()=>{});
+    await supabaseClient.from('reports').delete().eq('id',newId).catch(()=>{});
+    showToast('فشل تكرار التقرير: ' + (e.message||'خطأ غير معروف'));
+  }
+}
+
+async function setReportStatus(id,status){
+  try{
+    await ensureSupabaseClient();
+    const {error}=await supabaseClient.from('reports').update({status, published_at:status==='published'?new Date().toISOString():null, updated_at:new Date().toISOString()}).eq('id',id);
+    if(error)throw error;
+    await refreshReportsList();
+    showToast(status==='published'?'تم نشر التقرير ✓':'تمت أرشفة التقرير ✓');
+  }catch(e){showToast('تعذر تحديث حالة التقرير: '+(e.message||'خطأ'));}
+}
+
+
+document.getElementById('reports-close').addEventListener('click',()=>document.getElementById('reports-modal').classList.remove('show'));
+document.getElementById('clone-current-report').addEventListener('click',()=>cloneReportFromPrompt(REPORT_ID));
 
 function initSoundToggle(){
   const audio = document.getElementById('bgm-audio');
