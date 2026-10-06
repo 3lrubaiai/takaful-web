@@ -560,7 +560,7 @@ async function deleteStoragePath(path){
   if(error) console.warn('Storage delete warning:', error);
 }
 
-async function loadStateFromDatabase(reportId = reportId){
+async function loadStateFromDatabase(reportId = REPORT_ID){
   const { data: report, error: reportError } = await supabaseClient
     .from('reports')
     .select('id, month_name, year, total_words, initiatives_note, last_updated')
@@ -622,7 +622,7 @@ async function loadStateFromDatabase(reportId = reportId){
   };
 }
 
-async function saveStateToDatabase(reportId = reportId){
+async function saveStateToDatabase(reportId = REPORT_ID){
   await ensureSupabaseClient();
   const now = new Date().toISOString();
   const reportPayload = {
