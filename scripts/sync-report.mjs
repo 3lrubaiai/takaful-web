@@ -77,6 +77,10 @@ const reports = await get('reports?select=id,slug,month_name,month_number,year,s
 if (!reports.length) throw new Error('No published reports found');
 
 await fs.mkdir('data/reports', { recursive: true });
+
+// Remove old report snapshots that are no longer published so archived/draft
+// reports cannot remain accessible through stale static JSON files.
+const existingFiles = await fs.readdir('data/reports');
 const index = [];
 const payloads = [];
 
@@ -94,6 +98,13 @@ for (const report of reports) {
     status: payload.report.status,
     lastUpdated: payload.report.lastUpdated
   });
+}
+
+const publishedSlugs = new Set(index.map(x => `${x.slug}.json`));
+for (const file of existingFiles) {
+  if (file.endsWith('.json') && file !== 'index.json' && !publishedSlugs.has(file)) {
+    await fs.rm(`data/reports/${file}`, { force: true });
+  }
 }
 
 await fs.writeFile('data/reports/index.json', JSON.stringify({version: 1, generatedAt: new Date().toISOString(), reports: index}, null, 2) + '\n', 'utf8');
