@@ -92,6 +92,25 @@
   .lang-btn.loading .spin{ display:inline-block; }
   @keyframes spin{ to{ transform:rotate(360deg); } }
 
+  .public-report-nav{
+    margin:16px auto 0; max-width:760px; display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:8px;
+    padding:10px; border:1px solid rgba(255,255,255,.10); border-radius:16px; background:rgba(255,255,255,.035);
+  }
+  .public-report-nav .report-nav-label{ color:var(--muted); font-size:13px; width:100%; }
+  .public-report-nav select{
+    flex:1 1 230px; min-width:190px; max-width:360px; padding:10px 14px; border-radius:12px;
+    border:1px solid rgba(255,255,255,.18); background:rgba(0,0,0,.20); color:var(--ink); font-family:inherit;
+  }
+  .public-report-nav .nav-btn{
+    min-width:130px; padding:10px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.16);
+    background:rgba(255,255,255,.05); color:var(--ink); cursor:pointer; font-family:inherit; font-weight:600;
+  }
+  .public-report-nav .nav-btn:hover{ background:rgba(255,255,255,.10); }
+  .public-report-nav .nav-btn:disabled{ opacity:.35; cursor:not-allowed; }
+  @media (max-width:560px){
+    .public-report-nav .nav-btn{ flex:1 1 42%; min-width:0; }
+    .public-report-nav select{ flex:1 1 100%; max-width:none; }
+  }
   .hero{ padding: 18px 0 8px; text-align:center; }
   .hero .eyebrow{
     display:inline-flex; align-items:center; gap:8px; color: var(--leaf-3);
@@ -332,6 +351,7 @@
   <div class="hero">
     <div class="eyebrow" id="eyebrow-text">تقرير شهري</div>
     <h1 class="title" id="title-text">التقرير المالي</h1>
+    <div id="public-report-nav" class="public-report-nav" style="display:none;"></div>
     <div id="edit-meta" class="meta-edit" style="display:none;"></div>
   </div>
 
@@ -492,6 +512,8 @@ let isAdmin = false;
 let lang = "ar";
 let highlightIdx = 0;
 const translationCache = {};
+let publicReportsIndex = [];
+let publicReportsIndexLoaded = false;
 
 function uid(){ return 'c' + Math.random().toString(36).slice(2,9); }
 
@@ -830,12 +852,69 @@ async function loadStateFromSnapshot(){
   };
 }
 
+function publicSnapshotCacheKey(){
+  return 'takaful-public-snapshot:' + (REPORT_SLUG || 'latest');
+}
+
 function getCachedSnapshot(){
-  try{ const raw=localStorage.getItem('takaful-public-snapshot'); return raw ? JSON.parse(raw) : null; }
+  try{ const raw=localStorage.getItem(publicSnapshotCacheKey()); return raw ? JSON.parse(raw) : null; }
   catch(e){ return null; }
 }
 function cacheSnapshot(value){
-  try{ localStorage.setItem('takaful-public-snapshot', JSON.stringify(value)); }catch(e){}
+  try{ localStorage.setItem(publicSnapshotCacheKey(), JSON.stringify(value)); }catch(e){}
+}
+
+async function loadPublicReportsIndex(){
+  if(publicReportsIndexLoaded) return publicReportsIndex;
+  try{
+    const response = await fetch(new URL('./data/reports/index.json', document.baseURI).href + '?v=' + Date.now(), {cache:'no-store'});
+    if(!response.ok) throw new Error('HTTP ' + response.status);
+    const payload = await response.json();
+    publicReportsIndex = Array.isArray(payload) ? payload : (payload.reports || []);
+    publicReportsIndex = publicReportsIndex
+      .filter(r => (r.status || 'published') === 'published' && r.slug)
+      .sort((a,b) => String(b.slug).localeCompare(String(a.slug)));
+    publicReportsIndexLoaded = true;
+  }catch(e){
+    console.warn('Public reports index unavailable:', e);
+    publicReportsIndex = [];
+  }
+  return publicReportsIndex;
+}
+
+function navigateToPublicReport(slug){
+  if(!slug) return;
+  window.location.href = `${location.pathname}?report=${encodeURIComponent(slug)}`;
+}
+
+async function renderPublicReportNavigator(){
+  const wrap=document.getElementById('public-report-nav');
+  if(!wrap) return;
+  if(isAdmin){ wrap.style.display='none'; wrap.innerHTML=''; return; }
+  const reports=await loadPublicReportsIndex();
+  if(!reports.length){ wrap.style.display='none'; wrap.innerHTML=''; return; }
+
+  const currentSlug = REPORT_SLUG || reports[0]?.slug || '';
+  const currentIndex = Math.max(0, reports.findIndex(r=>String(r.slug)===String(currentSlug)));
+  const current = reports[currentIndex] || reports[0];
+  const newer = currentIndex > 0 ? reports[currentIndex-1] : null;
+  const older = currentIndex >= 0 && currentIndex < reports.length-1 ? reports[currentIndex+1] : null;
+
+  wrap.style.display='flex';
+  wrap.innerHTML=`
+    <div class="report-nav-label">التقارير الشهرية</div>
+    <button class="nav-btn" type="button" id="public-report-newer" ${newer?'':'disabled'}>${newer ? '← ' + escapeHtml(`${newer.monthName||''} ${newer.year||''}`) : 'أحدث تقرير'}</button>
+    <select id="public-report-select" aria-label="اختيار التقرير الشهري">
+      ${reports.map(r=>`<option value="${escapeHtml(String(r.slug))}" ${String(r.slug)===String(current.slug)?'selected':''}>${escapeHtml(`${r.monthName||''} ${r.year||''}`.trim())}</option>`).join('')}
+    </select>
+    <button class="nav-btn" type="button" id="public-report-older" ${older?'':'disabled'}>${older ? escapeHtml(`${older.monthName||''} ${older.year||''}`) + ' →' : 'أقدم تقرير'}</button>`;
+
+  const select=document.getElementById('public-report-select');
+  if(select) select.onchange=()=>navigateToPublicReport(select.value);
+  const newerBtn=document.getElementById('public-report-newer');
+  if(newerBtn && newer) newerBtn.onclick=()=>navigateToPublicReport(newer.slug);
+  const olderBtn=document.getElementById('public-report-older');
+  if(olderBtn && older) olderBtn.onclick=()=>navigateToPublicReport(older.slug);
 }
 
 async function refreshPublicSnapshotInBackground(){
@@ -856,10 +935,11 @@ async function refreshPublicSnapshotInBackground(){
 async function loadState(){
   showHostBanner();
   const cached=getCachedSnapshot();
-  if(cached){
+  if(cached && (!REPORT_SLUG || cached.reportSlug===REPORT_SLUG)){
     await normalizeState(cached);
     lang=getLocalLanguage();
     render();
+    renderPublicReportNavigator();
     refreshPublicSnapshotInBackground();
     return;
   }
@@ -874,17 +954,7 @@ async function loadState(){
   }
   lang=getLocalLanguage();
   render();
-}
-async function saveState(){
-  if(!isAdmin){ showToast('يجب تسجيل الدخول كمدير أولًا'); return; }
-  try{
-    await saveStateToDatabase();
-    showToast('تم حفظ التحديثات في قاعدة البيانات بنجاح ✓');
-  }catch(e){
-    console.error('saveState error:',e);
-    showToast('تعذّر الحفظ: ' + (e.message || 'خطأ غير معروف'));
-  }
-  render();
+  renderPublicReportNavigator();
 }
 
 function setLocalLanguage(value){
@@ -951,6 +1021,7 @@ function render(){
   renderHighlight(t);
   renderMeta();
   renderBody(t);
+  renderPublicReportNavigator();
 
   document.getElementById('save-btn').style.display = isAdmin ? 'inline-flex' : 'none';
   const reportsBtn = document.getElementById('reports-btn');
@@ -1566,48 +1637,6 @@ async function tryPin(){
   }
 }
 
-async function logoutAdmin(){
-  await ensureSupabaseClient();
-  const { error } = await supabaseClient.auth.signOut();
-  if(error){
-    console.error(error);
-    showToast("تعذّر تسجيل الخروج");
-    return;
-  }
-  isAdmin = false;
-  document.getElementById('pin-modal').classList.remove('show');
-  REPORT_ID = DEFAULT_REPORT_ID;
-  REPORT_SLUG = '';
-  try{ history.replaceState(null,'',location.pathname); }catch(e){}
-  try{
-    const publicState = await loadStateFromSnapshot();
-    await normalizeState(publicState);
-  }catch(e){
-    console.warn('Public snapshot restore failed:',e);
-  }
-  render();
-  showToast("تم تسجيل الخروج");
-}
-
-document.getElementById('admin-logout').addEventListener('click', logoutAdmin);
-
-async function initSupabaseAuth(){
-  try{
-    await ensureSupabaseClient();
-    const { data: { session } } = await supabaseClient.auth.getSession();
-    isAdmin = !!session;
-    supabaseClient.auth.onAuthStateChange((_event, session)=>{
-      isAdmin = !!session;
-      render();
-    });
-  }catch(e){
-    console.error("Supabase Auth initialization error:", e);
-    isAdmin=false;
-  }
-}
-
-
-
 function reportTitle(r){
   return `${r.month_name || ''} ${r.year || ''}`.trim();
 }
@@ -1806,7 +1835,13 @@ async function setReportStatus(id,status){
     await ensureSupabaseClient();
     const {error}=await supabaseClient.from('reports').update({status, published_at:status==='published'?new Date().toISOString():null, updated_at:new Date().toISOString()}).eq('id',id);
     if(error)throw error;
+    if(String(id)===String(REPORT_ID)){
+      state.reportStatus = status;
+      state.lastUpdated = new Date().toISOString();
+    }
+    publicReportsIndexLoaded = false;
     await refreshReportsList();
+    render();
     showToast(status==='published'?'تم نشر التقرير ✓':'تمت أرشفة التقرير ✓');
   }catch(e){showToast('تعذر تحديث حالة التقرير: '+(e.message||'خطأ'));}
 }
