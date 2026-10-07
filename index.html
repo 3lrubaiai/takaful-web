@@ -1951,9 +1951,32 @@ function initSoundToggle(){
     }
   });
 
-  // Try to start the anthem automatically. Browsers may block audible autoplay;
-  // if so, the same button will start it on the first click.
-  audio.play().then(syncButton).catch(syncButton);
+    // Try autoplay immediately.
+  // If the browser blocks audible autoplay, start on the first user interaction.
+  const tryStart = async () => {
+    if (!audio.paused) return;
+
+    try {
+      await audio.play();
+      syncButton();
+
+      // Once playback starts, remove the one-time interaction listeners.
+      document.removeEventListener('click', tryStart, true);
+      document.removeEventListener('touchstart', tryStart, true);
+      document.removeEventListener('keydown', tryStart, true);
+    } catch (e) {
+      syncButton();
+    }
+  };
+
+  // First attempt: play immediately on page load.
+  tryStart();
+
+  // Fallback: browsers that block autoplay will allow playback
+  // after the user's first interaction with the page.
+  document.addEventListener('click', tryStart, true);
+  document.addEventListener('touchstart', tryStart, true);
+  document.addEventListener('keydown', tryStart, true);
 }
 
 initSoundToggle();
