@@ -444,6 +444,72 @@ async function ensureSupabaseClient(){
   return supabaseClient;
 }
 
+/* =========================================================
+   Admin/session helpers
+   Keep these functions defined before attachHandlers() runs.
+   ========================================================= */
+async function initSupabaseAuth(){
+  await ensureSupabaseClient();
+  try{
+    const { data } = await supabaseClient.auth.getSession();
+    return data?.session || null;
+  }catch(e){
+    console.warn('Supabase auth session check failed:', e);
+    return null;
+  }
+}
+
+async function saveState(){
+  if(!isAdmin){
+    showToast('يجب تسجيل الدخول كمدير أولًا');
+    return;
+  }
+
+  const btn = document.getElementById('save-btn');
+  const oldText = btn ? btn.textContent : '';
+  if(btn){ btn.disabled = true; btn.textContent = 'جارِ الحفظ…'; }
+
+  try{
+    await saveStateToDatabase(REPORT_ID);
+    showToast('تم حفظ التحديثات في قاعدة البيانات بنجاح ✓');
+    render();
+  }catch(e){
+    console.error('saveState error:', e);
+    showToast('تعذّر الحفظ: ' + (e?.message || 'خطأ غير معروف'));
+  }finally{
+    if(btn){ btn.disabled = false; btn.textContent = oldText || 'حفظ التحديثات'; }
+  }
+}
+
+async function logoutAdmin(){
+  try{
+    await ensureSupabaseClient();
+    await supabaseClient.auth.signOut();
+  }catch(e){
+    console.warn('Supabase logout warning:', e);
+  }
+
+  isAdmin = false;
+  REPORT_ID = DEFAULT_REPORT_ID;
+  REPORT_SLUG = '';
+  publicReportsIndexLoaded = false;
+  publicReportsIndex = [];
+  try{ history.replaceState(null, '', location.pathname); }catch(e){}
+
+  try{
+    const publicState = await loadStateFromSnapshot();
+    cacheSnapshot(publicState);
+    await normalizeState(publicState);
+  }catch(e){
+    console.warn('Public snapshot reload after logout failed:', e);
+    await normalizeState(defaultState());
+  }
+
+  lang = getLocalLanguage();
+  render();
+  showToast('تم إنهاء وضع التعديل');
+}
+
 const DEFAULT_REPORT_ID = "takaful-suhar-report";
 let REPORT_ID = DEFAULT_REPORT_ID;
 let REPORT_SLUG = new URLSearchParams(location.search).get("report") || "";
@@ -1326,13 +1392,7 @@ function attachHandlers(t){
     if(isAdmin){
       await logoutAdmin();
     }else{
-      try{
-        await ensureSupabaseClient();
-      }catch(e){
-        console.error('Supabase init error:', e);
-        showToast('تعذر فتح تسجيل الدخول: ' + (e.message || 'خطأ في تحميل Supabase'));
-        return;
-      }
+      await initSupabaseAuth();
       document.getElementById('pin-modal').classList.add('show');
       document.getElementById('admin-email').value = '';
       document.getElementById('pin-input').value = '';
