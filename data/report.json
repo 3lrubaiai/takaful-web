@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T08:38:22.007Z",
+  "generatedAt": "2026-10-07T17:06:22.815Z",
   "report": {
     "id": "be74e938-a184-4276-90fd-c7b2de9172ab",
     "slug": "2026-10",
@@ -10,7 +10,7 @@
     "year": "2026",
     "totalWords": "سبعة وسبعون ألفاً وأربعمائة وثلاثة وسبعون ريالاً عُمانياً",
     "initiativesNote": " سُلّم: برنامج تعليمي. - |\n\n حملة التبرع بالدم (23) : \"آن الأوان\" - |\n\n تنجيد مقاعد انتظار المرضى والمراجعين في مجمع صحار الصحي. - |\n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
-    "lastUpdated": "2026-10-07T08:03:15.002+00:00"
+    "lastUpdated": "2026-10-07T16:59:47.671+00:00"
   },
   "highlight": {
     "id": "4ff3e237-10a2-4090-bff4-f59a394eea38",
@@ -51,8 +51,8 @@
       "amount": 26585,
       "countText": "729 يتيم",
       "detailText": "- كفالة الأيتام\nيهدف برنامج كفالة الأيتام إلى توفير دعم شهري مستمر للأيتام، بما يسهم في تلبية احتياجاتهم الأساسية ومساندتهم في مراحل حياتهم المختلفة.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791351108290-qsuprxn.jpg",
-      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791351108290-qsuprxn.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392217499-kmnv81q.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392217499-kmnv81q.jpg",
       "sortOrder": 0
     },
     {
@@ -61,8 +61,8 @@
       "amount": 6340,
       "countText": "200 أسرة",
       "detailText": "- كفالة أسرة معسرة\nيهدف البرنامج إلى تقديم دعم مالي دوري للأسر المستحقة، بما يساعدها على مواجهة احتياجاتها المعيشية الأساسية وتحسين استقرارها المادي.",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391469884-g0ipf9x.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391469884-g0ipf9x.jpg",
       "sortOrder": 1
     },
     {
@@ -71,8 +71,8 @@
       "amount": 1900,
       "countText": "63 طالباً",
       "detailText": "يهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391488557-dr61zak.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391488557-dr61zak.jpg",
       "sortOrder": 2
     },
     {
@@ -81,8 +81,8 @@
       "amount": 3701,
       "countText": "3 أسر",
       "detailText": "- المشاريع الإسكانية\nيُعنى البرنامج بتوفير الدعم السكني للأسر المستحقة، من خلال المساهمة في بناء وصيانة وتأهيل المساكن، بما يوفر لهم بيئة سكنية آمنة ومستقرة. ويعمل الفريق حاليًا على تنفيذ منزلين سكنيين؛ هما المنزل رقم (107) في الخويرية والمنزل رقم (108) في مجيس.",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391498352-eowfgzr.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391498352-eowfgzr.jpg",
       "sortOrder": 3
     },
     {
@@ -91,8 +91,8 @@
       "amount": 7314,
       "countText": "73 أسرة",
       "detailText": " - الالكترونيات\nيهدف مشروع الإلكترونيات إلى توفير الأجهزة الكهربائية والإلكترونية الأساسية للأسر المستحقة، بما يسهم في تلبية احتياجاتهم المنزلية الضرورية وتحسين ظروفهم المعيشية، والتخفيف من الأعباء المالية عنهم.\n\n* 24 مكيفًا بقيمة 3,739 ريالًا عُمانيًا.\n* 11 ثلاجة بقيمة 1,459 ريالًا عُمانيًا.\n* 6 غسالات بقيمة 416 ريالًا عُمانيًا.\n* طباخة واحدة بقيمة 13 ريالًا عُمانيًا",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391508461-64l9wxc.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391508461-64l9wxc.jpg",
       "sortOrder": 4
     },
     {
@@ -111,8 +111,8 @@
       "amount": 3355,
       "countText": "85 أسرة",
       "detailText": "تُوجّه الصدقات العامة إلى تلبية الاحتياجات العاجلة والمتنوعة للأسر والأفراد المستحقين، وفقًا للحالات التي يتم رصدها ودراستها من قبل الفريق.\n",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/07-1791275717867.jpg",
-      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/07-1791275717867.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391537010-0wztbxp.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391537010-0wztbxp.jpg",
       "sortOrder": 6
     },
     {
@@ -121,8 +121,8 @@
       "amount": 1977,
       "countText": "9 طلاب",
       "detailText": "- التعليم\nيهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391550720-sybtnar.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391550720-sybtnar.jpg",
       "sortOrder": 7
     },
     {
@@ -131,8 +131,8 @@
       "amount": 6177,
       "countText": "349 أسرة",
       "detailText": "- المواد الغذائية\nيهدف المشروع إلى دعم الأمن الغذائي للأسر المستحقة من خلال توفير المواد الغذائية الأساسية التي تساعدها على تلبية احتياجاتها المعيشية.",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391565640-a4pgec9.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391565640-a4pgec9.jpg",
       "sortOrder": 8
     },
     {
@@ -141,8 +141,8 @@
       "amount": 562,
       "countText": "54 أسرة",
       "detailText": "- اللحوم\nيسعى المشروع إلى توفير اللحوم للأسر المستحقة، بما يعزز الأمن الغذائي ويدعم الأسر في تلبية احتياجاتها الغذائية.",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391579855-xmc4lvt.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391579855-xmc4lvt.jpg",
       "sortOrder": 9
     },
     {
@@ -161,8 +161,8 @@
       "amount": 388,
       "countText": "5 مستفيدين",
       "detailText": "- الصحة\nيقدم المشروع الدعم للحالات الصحية المستحقة، من خلال المساهمة في توفير الاحتياجات الطبية والعلاجية التي تتطلبها الحالات وفقًا لظروفها.\n",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391603724-1s4pm4y.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391603724-1s4pm4y.jpg",
       "sortOrder": 11
     },
     {
@@ -179,10 +179,10 @@
       "id": "2e3a4463-d031-48d0-b059-df3aedcdcff2",
       "title": "تمكين الأسر",
       "amount": 190,
-      "countText": "3 أسر",
+      "countText": "3 مستفيدين",
       "detailText": "مبادرة تنموية تهدف إلى نقل الأسر من مرحلة الدعم المباشر إلى الاستقلالية المالية، عبر الاستثمار في مشاريعهم الصغرى وتوفير البنية التحتية الأساسية لنجاحها",
-      "detailImage": "",
-      "detailImagePath": "",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392173775-0jtuasn.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392173775-0jtuasn.jpg",
       "sortOrder": 13
     }
   ],
@@ -303,11 +303,6 @@
           "id": "25499149-4b27-4d92-9d34-f57261ddec82",
           "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/0b0164c2-2ff3-4627-b2bd-f46cd337d875/01-1791275748964.png",
           "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/0b0164c2-2ff3-4627-b2bd-f46cd337d875/01-1791275748964.png"
-        },
-        {
-          "id": "8c12d6e1-5e09-432c-8753-2c62f9aaa9b8",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/1791358021815-0uw6vbx.png",
-          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/1791358021815-0uw6vbx.png"
         }
       ]
     },
