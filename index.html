@@ -1326,7 +1326,13 @@ function attachHandlers(t){
     if(isAdmin){
       await logoutAdmin();
     }else{
-      await initSupabaseAuth();
+      try{
+        await ensureSupabaseClient();
+      }catch(e){
+        console.error('Supabase init error:', e);
+        showToast('تعذر فتح تسجيل الدخول: ' + (e.message || 'خطأ في تحميل Supabase'));
+        return;
+      }
       document.getElementById('pin-modal').classList.add('show');
       document.getElementById('admin-email').value = '';
       document.getElementById('pin-input').value = '';
