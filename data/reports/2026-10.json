@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-07T18:06:57.241Z",
+  "generatedAt": "2026-10-08T04:50:05.918Z",
   "report": {
     "id": "be74e938-a184-4276-90fd-c7b2de9172ab",
     "slug": "2026-10",
@@ -10,7 +10,7 @@
     "year": "2026",
     "totalWords": "سبعة وسبعون ألفاً وأربعمائة وثلاثة وسبعون ريالاً عُمانياً",
     "initiativesNote": " سُلّم: برنامج تعليمي. - |\n\n حملة التبرع بالدم (23) : \"آن الأوان\" - |\n\n تنجيد مقاعد انتظار المرضى والمراجعين في مجمع صحار الصحي. - |\n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
-    "lastUpdated": "2026-10-07T18:06:26.302+00:00"
+    "lastUpdated": "2026-10-08T04:49:14.117+00:00"
   },
   "highlight": {
     "id": "4ff3e237-10a2-4090-bff4-f59a394eea38",
@@ -49,7 +49,7 @@
       "id": "cfebe944-9284-476d-8a67-bdd7fb97a781",
       "title": "كفالة الأيتام",
       "amount": 26585,
-      "countText": "729 يتـيم",
+      "countText": "729 يتيم",
       "detailText": "- كفالة الأيتام\nيهدف برنامج كفالة الأيتام إلى توفير دعم شهري مستمر للأيتام، بما يسهم في تلبية احتياجاتهم الأساسية ومساندتهم في مراحل حياتهم المختلفة.",
       "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392217499-kmnv81q.jpg",
       "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392217499-kmnv81q.jpg",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T18:06:57.241Z",
+  "generatedAt": "2026-10-08T04:50:05.919Z",
   "reports": [
     {
       "id": "takaful-suhar-report",
@@ -18,7 +18,7 @@
       "monthNumber": 9,
       "year": "2026",
       "status": "published",
-      "lastUpdated": "2026-10-07T18:06:26.302+00:00"
+      "lastUpdated": "2026-10-08T04:49:14.117+00:00"
     }
   ]
 }
