@@ -1,24 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T09:29:13.416Z",
+  "generatedAt": "2026-11-03T09:07:31.080Z",
   "reports": [
     {
       "id": "be74e938-a184-4276-90fd-c7b2de9172ab",
-      "slug": "2026-10",
+      "slug": "2026-09",
       "monthName": "سبتمبر",
       "monthNumber": 9,
       "year": "2026",
       "status": "published",
-      "lastUpdated": "2026-10-08T04:57:51.832+00:00"
-    },
-    {
-      "id": "takaful-suhar-report",
-      "slug": "2026-08",
-      "monthName": "أغسـطس",
-      "monthNumber": 0,
-      "year": "2026",
-      "status": "published",
-      "lastUpdated": "2026-10-07T18:05:17.404+00:00"
+      "lastUpdated": "2026-11-03T08:49:20.102+00:00"
     }
   ]
 }
