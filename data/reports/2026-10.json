@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-04T05:48:07.420Z",
+  "generatedAt": "2026-11-04T05:53:56.847Z",
   "report": {
     "id": "c4352bd5-f0ff-4493-8f51-993bf5ed5645",
     "slug": "2026-10",
@@ -10,7 +10,7 @@
     "year": "2026",
     "totalWords": "سبعة وسبعون ألفاً وأربعمائة وثلاثة وسبعون ريالاً عُمانياً",
     "initiativesNote": " سُلّم: برنامج تعليمي. - |\n\n  تركيب فراش مسجد مع الاسفنج - |\n\n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
-    "lastUpdated": "2026-11-04T05:47:41.402+00:00"
+    "lastUpdated": "2026-11-04T05:52:42.041+00:00"
   },
   "highlight": {
     "id": "054e92c8-6c8c-411c-b6e1-4235683d135f",
@@ -26,6 +26,21 @@
         "id": "43664a09-5fff-4498-ac97-14c2087d65d1",
         "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/05-1793768860295.jpg",
         "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/05-1793768860295.jpg"
+      },
+      {
+        "id": "1e31f093-fa9e-4c19-8a43-6ab6b7a3a98e",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/1793771517461-de2m3nl.jpg",
+        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/1793771517461-de2m3nl.jpg"
+      },
+      {
+        "id": "d4bba398-b949-4465-82be-f679b9311a5a",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/1793771519427-835r2j9.jpg",
+        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/1793771519427-835r2j9.jpg"
+      },
+      {
+        "id": "9f4fa6d9-9e46-4dfc-b3eb-f6273919301b",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/1793771520125-29lykfi.jpg",
+        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/1793771520125-29lykfi.jpg"
       }
     ]
   },
