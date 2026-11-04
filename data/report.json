@@ -1,172 +1,172 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-04T05:10:15.414Z",
+  "generatedAt": "2026-11-04T05:29:47.007Z",
   "report": {
-    "id": "c4352bd5-f0ff-4493-8f51-993bf5ed5645",
-    "slug": "2026-10",
+    "id": "be74e938-a184-4276-90fd-c7b2de9172ab",
+    "slug": "2026-09",
     "status": "published",
-    "monthName": "أكتوبر",
-    "monthNumber": 10,
+    "monthName": "سبتمبر",
+    "monthNumber": 9,
     "year": "2026",
     "totalWords": "سبعة وسبعون ألفاً وأربعمائة وثلاثة وسبعون ريالاً عُمانياً",
     "initiativesNote": " سُلّم: برنامج تعليمي. - |\n\n حملة التبرع بالدم (23) : \"آن الأوان\" - |\n\n تنجيد مقاعد انتظار المرضى والمراجعين في مجمع صحار الصحي. - |\n  إعادة تدوير البلاستيك: مبادرة بيئية .\n",
-    "lastUpdated": "2026-11-04T05:08:55.343+00:00"
+    "lastUpdated": "2026-11-03T09:09:16.662+00:00"
   },
   "highlight": {
-    "id": "054e92c8-6c8c-411c-b6e1-4235683d135f",
+    "id": "4ff3e237-10a2-4090-bff4-f59a394eea38",
     "title": "صبّ أعمدة الدور الأرضي في مبنى تكافل الوقفي بالصويحرة، استمراراً للخطوات الإنشائية للمشروع.",
     "text": "​١) مشروع مبنى تكافل الوقفي:\nصبّ أعمدة الدور الأرضي في مبنى تكافل الوقفي بالصويحرة، استمراراً للخطوات الإنشائية للمشروع.\n\n٢) البرنامج التدريبي (سُلّم):\nتواصل المبادرات التعليمية جهودها في دعم المسار الأكاديمي للطلبة، حيث يُقدم \"برنامج سُلَّم\" دروس تقوية شاملة في مختلف المواد الدراسية لطلاب مرحلة الثانوية العامة، بمشاركة 32 طالباً وطالبة.\n\n٣) استقبل فريق تكافل صحار التطوعي الفاضل محمد بن حميد الكلباني، مدير عام المديرية العامة للتنمية الاجتماعية بمحافظة شمال الباطنة.\n\n٤) ​حملة نتكافل للتبرع بالدم:\nتنفيذ النسخة الثالثة والعشرين من حملة \"نتكافل\" للتبرع بالدم تحت شعار (آن الأوان)، بمشاركة مجتمعية واسعة بلغت 501 متبرعاً.\n\n٥) توقيع اتفاقية شراكة بيئية مع شركة أدفاريو (Advario)، بهدف جمع وإعادة تدوير البلاستيك والورق، وتعزيز الممارسات المستدامة وخدمة المجتمع.",
     "images": [
       {
-        "id": "4349cacd-5009-4d39-a0b9-cf9350fc0392",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/01-1793768859406.jpg",
-        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/01-1793768859406.jpg"
+        "id": "ca275555-8f00-4ee5-9cf0-fe037975344f",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791353437168-0sjn38b.jpg",
+        "path": "be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791353437168-0sjn38b.jpg"
       },
       {
-        "id": "9da08c18-52b0-4d97-9afa-63449ab1b485",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/02-1793768859675.jpg",
-        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/02-1793768859675.jpg"
+        "id": "8f793ff5-0f2b-4b12-9ab0-32efb852bd80",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791353446823-5gz5wqs.jpg",
+        "path": "be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791353446823-5gz5wqs.jpg"
       },
       {
-        "id": "9f40f862-5f1d-4016-b41f-5c151d563020",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/03-1793768859883.jpg",
-        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/03-1793768859883.jpg"
+        "id": "53349f1b-d6d2-41a3-aee7-af4d2a8775e7",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791356716652-0l9hiqz.jpg",
+        "path": "be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791356716652-0l9hiqz.jpg"
       },
       {
-        "id": "9f9507e7-5f4e-4135-960e-232916597d12",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/04-1793768860127.jpg",
-        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/04-1793768860127.jpg"
+        "id": "44fe2002-a069-4978-8d69-79293f25a5af",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791358079045-cadbpv2.jpg",
+        "path": "be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791358079045-cadbpv2.jpg"
       },
       {
-        "id": "43664a09-5fff-4498-ac97-14c2087d65d1",
-        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/05-1793768860295.jpg",
-        "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/highlight/05-1793768860295.jpg"
+        "id": "f9096084-a3a3-42a9-9cdb-40bf14827f3d",
+        "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791359116305-0jy3zdg.jpg",
+        "path": "be74e938-a184-4276-90fd-c7b2de9172ab/highlight/1791359116305-0jy3zdg.jpg"
       }
     ]
   },
   "categories": [
     {
-      "id": "a5b4b8e4-d16b-4796-818c-264026b23f67",
+      "id": "cfebe944-9284-476d-8a67-bdd7fb97a781",
       "title": "كفالة الأيتام",
       "amount": 26585,
       "countText": "729 يتيم",
       "detailText": "- كفالة الأيتام\nيهدف برنامج كفالة الأيتام إلى توفير دعم شهري مستمر للأيتام، بما يسهم في تلبية احتياجاتهم الأساسية ومساندتهم في مراحل حياتهم المختلفة.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/01-1793768855713.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/01-1793768855713.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392217499-kmnv81q.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392217499-kmnv81q.jpg",
       "sortOrder": 0
     },
     {
-      "id": "5cfd0c9c-e69a-4279-a000-5c5411f23901",
+      "id": "90fd2079-6521-4f96-ad7c-5505a3374e1b",
       "title": "كفالة الأسر المعسرة",
       "amount": 6340,
       "countText": "200 أسرة",
       "detailText": "- كفالة أسرة معسرة\nيهدف البرنامج إلى تقديم دعم مالي دوري للأسر المستحقة، بما يساعدها على مواجهة احتياجاتها المعيشية الأساسية وتحسين استقرارها المادي.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/02-1793768856350.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/02-1793768856350.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391469884-g0ipf9x.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391469884-g0ipf9x.jpg",
       "sortOrder": 1
     },
     {
-      "id": "909909af-1592-4852-8a5a-2bf23f096ebb",
+      "id": "9a13f2b3-58ba-4a53-9491-6488ad04d9e6",
       "title": "كفالة طالب جامعي",
       "amount": 1900,
       "countText": "63 طالباً",
       "detailText": "يهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/03-1793768856542.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/03-1793768856542.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391488557-dr61zak.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391488557-dr61zak.jpg",
       "sortOrder": 2
     },
     {
-      "id": "21317282-ea54-4816-a6b4-75594e584d4b",
+      "id": "e444b5fb-eeb3-4bb1-9bd1-fe85bfe207d4",
       "title": "المشــاريع الإسكانية",
       "amount": 3701,
       "countText": "3 أسر",
       "detailText": "- المشاريع الإسكانية\nيُعنى البرنامج بتوفير الدعم السكني للأسر المستحقة، من خلال المساهمة في بناء وصيانة وتأهيل المساكن، بما يوفر لهم بيئة سكنية آمنة ومستقرة. ويعمل الفريق حاليًا على تنفيذ منزلين سكنيين؛ هما المنزل رقم (107) في الخويرية والمنزل رقم (108) في مجيس.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/04-1793768856733.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/04-1793768856733.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391498352-eowfgzr.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391498352-eowfgzr.jpg",
       "sortOrder": 3
     },
     {
-      "id": "084b8f0c-7bf0-44ff-b136-9740be7baa51",
+      "id": "386a4169-1889-47db-86de-95a8aec59a24",
       "title": "الإلكترونيات",
       "amount": 7314,
       "countText": "73 أسرة",
       "detailText": " - الالكترونيات\nيهدف مشروع الإلكترونيات إلى توفير الأجهزة الكهربائية والإلكترونية الأساسية للأسر المستحقة، بما يسهم في تلبية احتياجاتهم المنزلية الضرورية وتحسين ظروفهم المعيشية، والتخفيف من الأعباء المالية عنهم.\n\n* 30 مكيفًا بقيمة 4,655 ريالًا عُمانيًا.\n* 9 ثلاجة بقيمة 1,075 ريالًا عُمانيًا.\n* 16 غسالات بقيمة 1195 ريالًا عُمانيًا.\n* طباختين بقيمة 24 ريالًا عُمانيًا",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/05-1793768857019.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/05-1793768857019.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391508461-64l9wxc.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391508461-64l9wxc.jpg",
       "sortOrder": 4
     },
     {
-      "id": "b51c47c1-7f4d-4548-b4ca-aad8e4673489",
+      "id": "ae962ac7-0658-46b2-a6a1-3d62216ea00a",
       "title": "فك كربة",
       "amount": 17339,
       "countText": "10 حالات",
       "detailText": "- فك كربة\nيهدف مشروع فك كربة إلى مساعدة الحالات المستحقة التي تواجه مطالبات مالية أو أحكامًا تنفيذية، بما يسهم في إنهاء الكربة المالية وبدء حياة أكثر استقرارًا.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/06-1793768857227.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/06-1793768857227.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791353506153-2fuy8ln.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791353506153-2fuy8ln.jpg",
       "sortOrder": 5
     },
     {
-      "id": "499fe2b3-11c0-4268-9ea9-499d8af1255a",
+      "id": "729a8a12-ad44-4039-ad7d-bf22388bcf6d",
       "title": "الصدقات العامة",
       "amount": 3355,
       "countText": "85 أسرة",
       "detailText": "تُوجّه الصدقات العامة إلى تلبية الاحتياجات العاجلة والمتنوعة للأسر والأفراد المستحقين، وفقًا للحالات التي يتم رصدها ودراستها من قبل الفريق.\n",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/07-1793768857428.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/07-1793768857428.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391537010-0wztbxp.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391537010-0wztbxp.jpg",
       "sortOrder": 6
     },
     {
-      "id": "ac298c52-105a-486e-be57-3dd83474e7e6",
+      "id": "776e8756-afab-4cfc-bec7-56237c33361f",
       "title": "التعلــيم",
       "amount": 1977,
       "countText": "9 طلاب",
       "detailText": "- التعليم\nيهدف المشروع إلى دعم الطلبة المستحقين ومساندتهم في مواصلة تعليمهم من خلال توفير الاحتياجات التعليمية الأساسية.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/08-1793768857600.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/08-1793768857600.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391550720-sybtnar.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391550720-sybtnar.jpg",
       "sortOrder": 7
     },
     {
-      "id": "396b6953-d23e-40c7-8db5-46c23840a9a8",
+      "id": "fafffc4f-b00b-4bc0-8192-14324250a78a",
       "title": "المواد الغذائية",
       "amount": 6177,
       "countText": "349 أسرة",
       "detailText": "- المواد الغذائية\nيهدف المشروع إلى دعم الأمن الغذائي للأسر المستحقة من خلال توفير المواد الغذائية الأساسية التي تساعدها على تلبية احتياجاتها المعيشية.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/09-1793768857849.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/09-1793768857849.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391565640-a4pgec9.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391565640-a4pgec9.jpg",
       "sortOrder": 8
     },
     {
-      "id": "61e84d04-1c32-4a9f-945e-051b3047c9ec",
+      "id": "fe6c4fff-0876-48dc-aa08-93593d78617d",
       "title": "اللحوم",
       "amount": 562,
       "countText": "54 أسرة",
       "detailText": "- اللحوم\nيسعى المشروع إلى توفير اللحوم للأسر المستحقة، بما يعزز الأمن الغذائي ويدعم الأسر في تلبية احتياجاتها الغذائية.",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/10-1793768858061.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/10-1793768858061.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391579855-xmc4lvt.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391579855-xmc4lvt.jpg",
       "sortOrder": 9
     },
     {
-      "id": "81f9e99f-6020-4510-94c0-807bcbe12212",
+      "id": "bfdd27be-d442-4ae2-9f5d-7d3841da8d86",
       "title": "الأثاث",
       "amount": 599,
       "countText": "5 أسر",
       "detailText": "- الأثاث\nيعمل المشروع على توفير الأثاث الأساسي للأسر المستحقة التي تحتاج إلى تجهيز أو استكمال احتياجات منازلها، بما يوفر لهم متطلبات الحياة اليومية بصورة أفضل.\n",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/11-1793768858252.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/11-1793768858252.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791393043870-69fvpts.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791393043870-69fvpts.jpg",
       "sortOrder": 10
     },
     {
-      "id": "a44177b4-98e9-42f0-aab7-38f679abafec",
+      "id": "bd8963ea-6f7f-4582-8e0b-8d55cd793f05",
       "title": "الصحة",
       "amount": 388,
       "countText": "5 مستفيدين",
       "detailText": "- الصحة\nيقدم المشروع الدعم للحالات الصحية المستحقة، من خلال المساهمة في توفير الاحتياجات الطبية والعلاجية التي تتطلبها الحالات وفقًا لظروفها.\n",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/12-1793768858472.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/12-1793768858472.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391603724-1s4pm4y.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791391603724-1s4pm4y.jpg",
       "sortOrder": 11
     },
     {
-      "id": "01b26089-38f4-4da4-8a42-7ed2c4de6cfb",
+      "id": "3fae4149-1cbc-4079-bd57-fa34e28742d1",
       "title": "مبادرات مجتمعية",
       "amount": 1046,
       "countText": "4 مبادرات",
@@ -176,205 +176,205 @@
       "sortOrder": 12
     },
     {
-      "id": "908594dd-6cf4-4690-8bfe-c066593f0ac0",
+      "id": "2e3a4463-d031-48d0-b059-df3aedcdcff2",
       "title": "تمكين الأسر",
       "amount": 190,
       "countText": "3 مستفـيدين",
       "detailText": "مبادرة تنموية تهدف إلى نقل الأسر من مرحلة الدعم المباشر إلى الاستقلالية المالية، عبر الاستثمار في مشاريعهم الصغرى وتوفير البنية التحتية الأساسية لنجاحها",
-      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/14-1793768858768.jpg",
-      "detailImagePath": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/categories/14-1793768858768.jpg",
+      "detailImage": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392173775-0jtuasn.jpg",
+      "detailImagePath": "be74e938-a184-4276-90fd-c7b2de9172ab/categories/1791392173775-0jtuasn.jpg",
       "sortOrder": 13
     }
   ],
   "initiativeImages": [
     {
-      "id": "0007f007-f133-45e9-8738-9c516078c021",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/01-1793768860858.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/01-1793768860858.jpg"
+      "id": "52b1de62-1a8c-4216-90ee-b5bd56182d6f",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/01-1791275720474.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/01-1791275720474.jpg"
     },
     {
-      "id": "111a3cec-8ca6-447c-83a8-fea576b6a255",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/02-1793768861026.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/02-1793768861026.jpg"
+      "id": "59c34eee-67dd-4501-bca6-4a2b725086c3",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/02-1791275720786.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/02-1791275720786.jpg"
     },
     {
-      "id": "cb9607eb-f46f-4529-bc54-a65c2ecb96cf",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/03-1793768861191.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/03-1793768861191.jpg"
+      "id": "240562bb-c504-4b99-befd-bfcbcbb40542",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/03-1791275721048.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/03-1791275721048.jpg"
     },
     {
-      "id": "86b9d467-f5b3-42ae-b492-ea6925389e76",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/04-1793768861358.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/04-1793768861358.jpg"
+      "id": "e2e4620b-e57b-4ac3-8ee1-913b6672f4b2",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/04-1791275721310.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/04-1791275721310.jpg"
     },
     {
-      "id": "2b2cc564-0b20-4b57-b969-f504783ecdb9",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/05-1793768861617.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/05-1793768861617.jpg"
+      "id": "801456cb-3b70-4043-adf6-fcc0582d7b50",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/05-1791275721506.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/05-1791275721506.jpg"
     },
     {
-      "id": "7e6aea67-ee44-4ee4-8b09-176181ee0e98",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/06-1793768861821.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/06-1793768861821.jpg"
+      "id": "4abf1912-f6e9-4292-99fa-b46301a9840c",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/06-1791275721665.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/06-1791275721665.jpg"
     },
     {
-      "id": "552dd444-c5b6-48fd-a632-fb7208fbd693",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/07-1793768861975.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/07-1793768861975.jpg"
+      "id": "edd7dd0f-3fac-4778-a80d-1179425cb586",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/07-1791275721852.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/07-1791275721852.jpg"
     },
     {
-      "id": "9dc76168-bc48-461b-a957-e93e3b949178",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/08-1793768862178.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/08-1793768862178.jpg"
+      "id": "253bf3d9-22e9-4325-80e4-d901c9c245a3",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/08-1791275722155.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/08-1791275722155.jpg"
     },
     {
-      "id": "d6e5dd5a-ccd3-4a18-8d84-b7001333d0a4",
-      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/09-1793768862347.jpg",
-      "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/initiatives/09-1793768862347.jpg"
+      "id": "fa348fb1-b878-49ef-bd51-d03bffcef1c5",
+      "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/09-1791275722360.jpg",
+      "path": "be74e938-a184-4276-90fd-c7b2de9172ab/initiatives/09-1791275722360.jpg"
     }
   ],
   "partnerSections": [
     {
-      "id": "895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0",
+      "id": "b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0",
       "subtitle": "شكرا لشركائنا في برنامج سلم",
       "logos": [
         {
-          "id": "45fa005b-4ee2-4332-9aaa-e336fa834e1d",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/01-1793768862954.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/01-1793768862954.png"
+          "id": "fde76e9a-9e20-43df-84f3-0cdf47f17fe0",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/01-1791275722988.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/01-1791275722988.png"
         },
         {
-          "id": "6e6cd0c2-0e88-48f5-97c6-609d5743fb3e",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/02-1793768863107.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/02-1793768863107.png"
+          "id": "6679d51b-342a-4145-8ec6-13adaa02f6ee",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/02-1791275723156.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/02-1791275723156.png"
         },
         {
-          "id": "565453be-637e-4832-a36b-1ff34265cead",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/03-1793768863280.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/03-1793768863280.png"
+          "id": "1710f767-d427-45d1-998a-3945a6d64f2e",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/03-1791275723406.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/03-1791275723406.png"
         },
         {
-          "id": "5581a11b-3f99-45bd-adf4-de90bc395e9d",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/04-1793768863473.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/04-1793768863473.png"
+          "id": "dd58ab5c-7e53-4b40-88c3-3d7008726084",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/04-1791275723700.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/04-1791275723700.png"
         },
         {
-          "id": "8cb7c2c9-a836-4567-b323-d516c4945cc4",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/05-1793768863646.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/05-1793768863646.png"
+          "id": "32fc8384-70fc-431c-915f-b4d7a02fe33f",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/05-1791275723930.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/05-1791275723930.png"
         },
         {
-          "id": "3203a4b2-9a06-4462-9432-e51b267130ef",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/06-1793768863825.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/06-1793768863825.png"
+          "id": "b67299f5-36ad-4b2b-9251-b13b1fbaaebb",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/06-1791275724134.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/06-1791275724134.png"
         },
         {
-          "id": "4669248d-0796-42f1-95a9-ba3f0f4ca58c",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/07-1793768864052.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/07-1793768864052.png"
+          "id": "82e72ebf-c752-4a90-b67b-bb6873012c23",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/07-1791275724272.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/07-1791275724272.png"
         },
         {
-          "id": "fc501165-32cb-4a68-ab5f-de65d5a73f1d",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/08-1793768864350.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/08-1793768864350.png"
+          "id": "b445ba36-d7bf-4806-96d4-8fd98f36f188",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/08-1791275724454.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/08-1791275724454.png"
         },
         {
-          "id": "60af3e98-009d-4d84-832f-aa31d1c3f263",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/09-1793768864518.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/09-1793768864518.png"
+          "id": "c25555cd-7ac5-4546-9273-cdecb0a4dcb3",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/09-1791275724617.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/09-1791275724617.png"
         },
         {
-          "id": "16b7d1fb-b659-4e69-86ac-97b1a1dcb4be",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/10-1793768864695.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/10-1793768864695.png"
+          "id": "5ac05ea3-ec24-4f47-9a85-3f98a98d63bd",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/10-1791275724791.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/10-1791275724791.png"
         },
         {
-          "id": "bed86610-6123-47d0-bfc6-1ccd33400f0d",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/11-1793768864874.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/895eaf84-52c6-4e53-adf0-2ca1ddf9b5c0/11-1793768864874.png"
+          "id": "876d5d98-0450-4e17-9439-ca73c1cf33de",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/11-1791275724980.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/b18fb54b-4cbe-439e-9fa9-a0a46bfcd6d0/11-1791275724980.png"
         }
       ]
     },
     {
-      "id": "d24814e3-35b7-451d-a806-34ff19b9b14e",
+      "id": "0b0164c2-2ff3-4627-b2bd-f46cd337d875",
       "subtitle": "شكرا لشركائنا في مبادرة إعادة تدوير البلاستيك",
       "logos": [
         {
-          "id": "92f432c0-8150-4e77-9d6b-db1f95648762",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/d24814e3-35b7-451d-a806-34ff19b9b14e/01-1793768865476.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/d24814e3-35b7-451d-a806-34ff19b9b14e/01-1793768865476.png"
+          "id": "25499149-4b27-4d92-9d34-f57261ddec82",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/0b0164c2-2ff3-4627-b2bd-f46cd337d875/01-1791275748964.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/0b0164c2-2ff3-4627-b2bd-f46cd337d875/01-1791275748964.png"
         }
       ]
     },
     {
-      "id": "1d437a57-f398-4227-96df-20ab688088a9",
+      "id": "662714cf-0abc-42b0-ac05-ed2a6b5fdf44",
       "subtitle": "شكرا للجهات الداعمة لحملة نتكافل للتبرع بالدم 23 ",
       "logos": [
         {
-          "id": "26a29f23-b5d4-43ad-bbe1-94cfcc7df2b7",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/01-1793768866047.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/01-1793768866047.png"
+          "id": "4b5820ca-8817-43e7-84f6-be4ae110a22c",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/01-1791275749469.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/01-1791275749469.png"
         },
         {
-          "id": "87d1f02a-56e0-40d1-a48d-d92d17b92c93",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/02-1793768866234.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/02-1793768866234.png"
+          "id": "bda65ee4-547c-48ec-9095-883aaade03b7",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/02-1791275749630.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/02-1791275749630.png"
         },
         {
-          "id": "a881c0a0-81b0-4a44-95d7-1169ac6c0dd0",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/03-1793768866436.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/03-1793768866436.png"
+          "id": "5bdbdbdf-30ee-4461-bb2a-500da4f22478",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/03-1791275749801.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/03-1791275749801.png"
         },
         {
-          "id": "51db3b49-e2d9-4b4c-beec-47c90f1c1527",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/04-1793768866610.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/04-1793768866610.png"
+          "id": "7f8be0d0-2e49-4c7f-b07c-8269d9210d02",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/04-1791275749977.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/04-1791275749977.png"
         },
         {
-          "id": "8c6aaf88-5af5-4f2d-ad48-4772ae32d289",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/05-1793768866845.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/1d437a57-f398-4227-96df-20ab688088a9/05-1793768866845.png"
+          "id": "94a38306-8cf9-44e4-bc86-c46737d3eea3",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/05-1791275750196.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/662714cf-0abc-42b0-ac05-ed2a6b5fdf44/05-1791275750196.png"
         }
       ]
     },
     {
-      "id": "f3f53a96-c26f-4006-b8d1-794b9a28a7e5",
+      "id": "d9fa8921-35d1-4f70-989e-f0fb43b781de",
       "subtitle": "شكرا لشركائنا في حملة نتكافل للتبرع بالدم 23",
       "logos": [
         {
-          "id": "ae89cc6f-c8a7-4c18-93c1-9a67c397d08c",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/01-1793768867470.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/01-1793768867470.png"
+          "id": "af9a3e2a-d468-46d5-bd41-64c6ab01e2d7",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/01-1791275750677.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/01-1791275750677.png"
         },
         {
-          "id": "3f1bff44-c3a0-4bf0-82a0-8e06d495455e",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/02-1793768867671.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/02-1793768867671.png"
+          "id": "77c3c620-0ff4-4c70-bde7-4dac12ddd99d",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/02-1791275751076.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/02-1791275751076.png"
         },
         {
-          "id": "ab461c64-1de7-469a-9470-7a30fc40d373",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/03-1793768867937.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/03-1793768867937.png"
+          "id": "2d767b49-81e1-4177-ba4c-fa45515334da",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/03-1791275751267.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/03-1791275751267.png"
         },
         {
-          "id": "3ecce00a-835c-418d-993b-307f73e74d4e",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/04-1793768868107.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/04-1793768868107.png"
+          "id": "bf423bcf-fbd9-4337-a6d5-2d1488ed68da",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/04-1791275751419.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/04-1791275751419.png"
         },
         {
-          "id": "73ada127-0f1a-42f1-8cd1-6f656875692e",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/05-1793768868294.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/05-1793768868294.png"
+          "id": "59da1b6b-dd62-4688-b372-6f61132a905b",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/05-1791275751601.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/05-1791275751601.png"
         },
         {
-          "id": "88eff9a7-ee1b-473a-878e-0ddb24983ff3",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/06-1793768868460.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/06-1793768868460.png"
+          "id": "29161a35-2d29-460e-82b1-3267afd9ad85",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/06-1791275751792.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/06-1791275751792.png"
         },
         {
-          "id": "fd71957d-dd67-4a1a-b7e9-5d2226a91068",
-          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/07-1793768868678.png",
-          "path": "c4352bd5-f0ff-4493-8f51-993bf5ed5645/partners/f3f53a96-c26f-4006-b8d1-794b9a28a7e5/07-1793768868678.png"
+          "id": "7fe5f982-2846-40a1-b00e-0e49f8d6f860",
+          "url": "https://znwszkriocjargompucf.supabase.co/storage/v1/object/public/report-images/be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/07-1791275752063.png",
+          "path": "be74e938-a184-4276-90fd-c7b2de9172ab/partners/d9fa8921-35d1-4f70-989e-f0fb43b781de/07-1791275752063.png"
         }
       ]
     }
