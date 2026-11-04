@@ -1,7 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T05:53:56.848Z",
+  "generatedAt": "2026-11-04T06:06:29.330Z",
   "reports": [
+    {
+      "id": "c4352bd5-f0ff-4493-8f51-993bf5ed5645",
+      "slug": "2026-10",
+      "monthName": "أكتوبر",
+      "monthNumber": 10,
+      "year": "2026",
+      "status": "published",
+      "lastUpdated": "2026-11-04T05:58:57.037+00:00"
+    },
     {
       "id": "be74e938-a184-4276-90fd-c7b2de9172ab",
       "slug": "2026-09",
@@ -19,15 +28,6 @@
       "year": "2026",
       "status": "published",
       "lastUpdated": "2026-11-03T08:20:23.941+00:00"
-    },
-    {
-      "id": "c4352bd5-f0ff-4493-8f51-993bf5ed5645",
-      "slug": "2026-10",
-      "monthName": "أكتوبر",
-      "monthNumber": 10,
-      "year": "2026",
-      "status": "published",
-      "lastUpdated": "2026-11-04T05:52:42.041+00:00"
     }
   ]
 }
