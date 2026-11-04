@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T09:31:47.366Z",
+  "generatedAt": "2026-11-04T05:10:18.457Z",
   "reports": [
     {
-      "id": "takaful-suhar-report",
-      "slug": "2026-08",
-      "monthName": "أغسـطس",
-      "monthNumber": 8,
+      "id": "c4352bd5-f0ff-4493-8f51-993bf5ed5645",
+      "slug": "2026-10",
+      "monthName": "أكتوبر",
+      "monthNumber": 10,
       "year": "2026",
       "status": "published",
-      "lastUpdated": "2026-11-03T08:20:23.941+00:00"
+      "lastUpdated": "2026-11-04T05:08:55.343+00:00"
     },
     {
       "id": "be74e938-a184-4276-90fd-c7b2de9172ab",
@@ -19,6 +19,15 @@
       "year": "2026",
       "status": "published",
       "lastUpdated": "2026-11-03T09:09:16.662+00:00"
+    },
+    {
+      "id": "takaful-suhar-report",
+      "slug": "2026-08",
+      "monthName": "أغسـطس",
+      "monthNumber": 8,
+      "year": "2026",
+      "status": "published",
+      "lastUpdated": "2026-11-03T08:20:23.941+00:00"
     }
   ]
 }
